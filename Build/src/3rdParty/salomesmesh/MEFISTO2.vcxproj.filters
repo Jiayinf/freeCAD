@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\MEFISTO2\aptrte.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\MEFISTO2\trte.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\Rn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\aptrte.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{71069E8A-DE13-3167-92BF-AF0808750EC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84950D1F-C2EA-3858-935B-1D487F2DE85B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

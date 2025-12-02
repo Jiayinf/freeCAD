@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Init.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\InitGui.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\importFCMat.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\MaterialEditor.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\TestMaterialsApp.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\TestMaterialsGui.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Templatematerial.yml" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

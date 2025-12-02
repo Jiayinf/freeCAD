@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\MaterialTreeWidgetPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\qrc_Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\qrc_Material_translation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\AppearancePreview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\AppMatGui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Array2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Array3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ArrayDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ArrayModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\BaseDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgDisplayPropertiesImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgInspectAppearance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgInspectMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgMaterialImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgSettingsDefaultMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgSettingsMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ImageEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ListDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ListEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\MaterialDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\MaterialSave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\MaterialsEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\MaterialTreeWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ModelSelect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\PreCompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\TextEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Workbench.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\WorkbenchManipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\AppearancePreview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Array2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Array3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ArrayDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ArrayModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\BaseDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgDisplayPropertiesImp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgInspectAppearance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgInspectMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgMaterialImp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgSettingsDefaultMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgSettingsMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ImageEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ListDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ListEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ListModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\MaterialDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\MaterialSave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\MaterialsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\MaterialTreeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ModelSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\PreCompiled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\TextEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Workbench.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\WorkbenchManipulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Debug\ui_Array2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Debug\ui_Array3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Debug\ui_DlgDisplayProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Debug\ui_DlgInspectAppearance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Debug\ui_DlgInspectMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Debug\ui_DlgMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Debug\ui_DlgSettingsDefaultMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Debug\ui_DlgSettingsMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Debug\ui_ImageEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Debug\ui_ListEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Debug\ui_MaterialSave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Debug\ui_MaterialsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Debug\ui_ModelSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Debug\ui_TextEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Debug\Resources\ui\ui_materials-editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\data\Mod\Material\Resources\ui\ui_materials-editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Release\ui_Array2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Release\ui_Array3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Release\ui_DlgDisplayProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Release\ui_DlgInspectAppearance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Release\ui_DlgInspectMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Release\ui_DlgMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Release\ui_DlgSettingsDefaultMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Release\ui_DlgSettingsMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Release\ui_ImageEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Release\ui_ListEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Release\ui_MaterialSave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Release\ui_MaterialsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Release\ui_ModelSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Release\ui_TextEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_Release\Resources\ui\ui_materials-editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_MinSizeRel\ui_Array2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_MinSizeRel\ui_Array3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_MinSizeRel\ui_DlgDisplayProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_MinSizeRel\ui_DlgInspectAppearance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_MinSizeRel\ui_DlgInspectMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_MinSizeRel\ui_DlgMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_MinSizeRel\ui_DlgSettingsDefaultMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_MinSizeRel\ui_DlgSettingsMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_MinSizeRel\ui_ImageEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_MinSizeRel\ui_ListEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_MinSizeRel\ui_MaterialSave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_MinSizeRel\ui_MaterialsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_MinSizeRel\ui_ModelSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_MinSizeRel\ui_TextEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_MinSizeRel\Resources\ui\ui_materials-editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_RelWithDebInfo\ui_Array2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_RelWithDebInfo\ui_Array3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_RelWithDebInfo\ui_DlgDisplayProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_RelWithDebInfo\ui_DlgInspectAppearance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_RelWithDebInfo\ui_DlgInspectMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_RelWithDebInfo\ui_DlgMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_RelWithDebInfo\ui_DlgSettingsDefaultMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_RelWithDebInfo\ui_DlgSettingsMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_RelWithDebInfo\ui_ImageEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_RelWithDebInfo\ui_ListEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_RelWithDebInfo\ui_MaterialSave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_RelWithDebInfo\ui_MaterialsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_RelWithDebInfo\ui_ModelSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_RelWithDebInfo\ui_TextEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\include_RelWithDebInfo\Resources\ui\ui_materials-editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\MaterialTreeWidgetPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Resources\Material.qrc" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_be.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_ca.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_cs.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_da.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_de.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_el.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_es-AR.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_es-ES.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_eu.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_fi.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_fr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_hr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_hu.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_id.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_it.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_ja.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_ka.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_ko.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_lt.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_nl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_pl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_pt-BR.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_pt-PT.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_ro.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_ru.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_sl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_sr-CS.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_sr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_sv-SE.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_tr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_uk.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_val-ES.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_zh-CN.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6392469fd3b487e3bb4cae5c594510a4\Material_zh-TW.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\Resources\Material_translation.qrc" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Resources\icons\list.svg" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Resources\icons\Materials_Edit.svg" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Resources\icons\MaterialWorkbench.svg" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Resources\icons\multiline.svg" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Resources\icons\preferences-material.svg" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Resources\icons\preview-rendered.svg" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Resources\icons\preview-vector.svg" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Resources\icons\table.svg" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Resources\images\default_image.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Resources\ui\materials-editor.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\129560a1f22a4524a366b93831a5db6b\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Array2D.ui" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\Array3D.ui" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgDisplayProperties.ui" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgInspectAppearance.ui" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgInspectMaterial.ui" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgMaterial.ui" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgSettingsDefaultMaterial.ui" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\DlgSettingsMaterial.ui" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ImageEdit.ui" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ListEdit.ui" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\MaterialSave.ui" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\MaterialsEditor.ui" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\ModelSelect.ui" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Gui\TextEdit.ui" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\autouic_Debug.stamp" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\autouic_Release.stamp" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\Gui\MatGui_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2067397A-4887-3E54-AAD3-E25BDD7D8AA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{71069E8A-DE13-3167-92BF-AF0808750EC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python">
+      <UniqueIdentifier>{B82E98B3-5CAF-3E89-B4EF-3D34CE96AA99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{969176FB-8AC9-38B1-AA35-F97B995B99EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84950D1F-C2EA-3858-935B-1D487F2DE85B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

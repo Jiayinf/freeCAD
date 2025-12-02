@@ -1,0 +1,2210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C8F9BAE2-CF75-3735-A522-42448BB8498F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Idf</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Init.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Init.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Init.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Init.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Init.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Init.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Init.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Init.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Init.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Init.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Init.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Init.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Init.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Init.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Init.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Init.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Init.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Init.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Init.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Init.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Init.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idf.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idf.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idf.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idf.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idf.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idf.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idf.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idf.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idf.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idf.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idf.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idf.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idf.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idf.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idf.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idf.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idf.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idf.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idf.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idf.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idf.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\License.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/License.txt to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/License.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/License.txt D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/License.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\License.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/License.txt to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/License.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/License.txt D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/License.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\License.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/License.txt to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/License.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/License.txt D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/License.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\License.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/License.txt to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/License.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/License.txt D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/License.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\License.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\0603_SMD.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0603_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0603_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0603_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0603_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\0603_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0603_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0603_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0603_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0603_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\0603_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0603_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0603_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0603_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0603_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\0603_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0603_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0603_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0603_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0603_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\0603_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\0805_SMD.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0805_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0805_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0805_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0805_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\0805_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0805_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0805_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0805_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0805_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\0805_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0805_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0805_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0805_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0805_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\0805_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0805_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0805_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/0805_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/0805_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\0805_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\1206_SMD.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1206_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1206_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1206_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1206_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\1206_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1206_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1206_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1206_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1206_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\1206_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1206_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1206_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1206_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1206_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\1206_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1206_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1206_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1206_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1206_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\1206_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\1210_SMD.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1210_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1210_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1210_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1210_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\1210_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1210_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1210_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1210_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1210_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\1210_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1210_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1210_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1210_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1210_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\1210_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1210_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1210_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1210_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1210_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\1210_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\1812_SMD.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1812_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1812_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1812_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1812_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\1812_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1812_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1812_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1812_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1812_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\1812_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1812_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1812_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1812_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1812_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\1812_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1812_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1812_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/1812_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/1812_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\1812_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\2225_SMD.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2225_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2225_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2225_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2225_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\2225_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2225_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2225_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2225_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2225_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\2225_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2225_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2225_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2225_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2225_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\2225_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2225_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2225_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2225_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2225_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\2225_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\2512_SMD.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2512_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2512_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2512_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2512_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\2512_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2512_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2512_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2512_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2512_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\2512_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2512_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2512_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2512_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2512_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\2512_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2512_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2512_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/2512_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/2512_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\2512_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\CAP_50SGV_8_10.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\CAP_50SGV_8_10.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\CAP_50SGV_8_10.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\CAP_50SGV_8_10.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/CAP_50SGV_8_10.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\CAP_50SGV_8_10.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\EPL22_6_16.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/EPL22_6_16.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/EPL22_6_16.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/EPL22_6_16.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/EPL22_6_16.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\EPL22_6_16.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/EPL22_6_16.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/EPL22_6_16.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/EPL22_6_16.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/EPL22_6_16.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\EPL22_6_16.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/EPL22_6_16.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/EPL22_6_16.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/EPL22_6_16.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/EPL22_6_16.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\EPL22_6_16.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/EPL22_6_16.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/EPL22_6_16.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/EPL22_6_16.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/EPL22_6_16.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\EPL22_6_16.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\footprints_models.csv">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/footprints_models.csv to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/footprints_models.csv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/footprints_models.csv D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/footprints_models.csv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\footprints_models.csv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/footprints_models.csv to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/footprints_models.csv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/footprints_models.csv D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/footprints_models.csv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\footprints_models.csv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/footprints_models.csv to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/footprints_models.csv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/footprints_models.csv D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/footprints_models.csv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\footprints_models.csv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/footprints_models.csv to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/footprints_models.csv</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/footprints_models.csv D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/footprints_models.csv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\footprints_models.csv</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\I22_2_5_16.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\I22_2_5_16.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\I22_2_5_16.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\I22_2_5_16.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\I22_2_5_16.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\I22_2_5_16withEPL22_6_16.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\I22_2_5_16withEPL22_6_16.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\I22_2_5_16withEPL22_6_16.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\I22_2_5_16withEPL22_6_16.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/I22_2_5_16withEPL22_6_16.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\I22_2_5_16withEPL22_6_16.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\MSOP_10.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/MSOP_10.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/MSOP_10.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/MSOP_10.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/MSOP_10.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\MSOP_10.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/MSOP_10.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/MSOP_10.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/MSOP_10.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/MSOP_10.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\MSOP_10.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/MSOP_10.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/MSOP_10.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/MSOP_10.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/MSOP_10.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\MSOP_10.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/MSOP_10.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/MSOP_10.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/MSOP_10.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/MSOP_10.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\MSOP_10.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\RLF_12545.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\RLF_12545.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\RLF_12545.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\RLF_12545.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\RLF_12545.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\RLF_7030.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_7030.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_7030.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_7030.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_7030.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\RLF_7030.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_7030.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_7030.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_7030.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_7030.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\RLF_7030.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_7030.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_7030.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_7030.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_7030.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\RLF_7030.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_7030.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_7030.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_7030.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_7030.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\RLF_7030.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\SMB_DO_214AA.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMB_DO_214AA.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMB_DO_214AA.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMB_DO_214AA.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMB_DO_214AA.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SMB_DO_214AA.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMB_DO_214AA.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMB_DO_214AA.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMB_DO_214AA.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMB_DO_214AA.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SMB_DO_214AA.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMB_DO_214AA.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMB_DO_214AA.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMB_DO_214AA.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMB_DO_214AA.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SMB_DO_214AA.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMB_DO_214AA.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMB_DO_214AA.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMB_DO_214AA.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMB_DO_214AA.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SMB_DO_214AA.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\SMC_DO_214AB.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMC_DO_214AB.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMC_DO_214AB.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMC_DO_214AB.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMC_DO_214AB.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SMC_DO_214AB.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMC_DO_214AB.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMC_DO_214AB.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMC_DO_214AB.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMC_DO_214AB.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SMC_DO_214AB.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMC_DO_214AB.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMC_DO_214AB.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMC_DO_214AB.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMC_DO_214AB.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SMC_DO_214AB.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMC_DO_214AB.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMC_DO_214AB.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SMC_DO_214AB.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SMC_DO_214AB.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SMC_DO_214AB.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\SOD_323.igs">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOD_323.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOD_323.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOD_323.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOD_323.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\SOD_323.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOD_323.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOD_323.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOD_323.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_323.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_323.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOD_323.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\SOD_523.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_523.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_523.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_523.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_523.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOD_523.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_523.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_523.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_523.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_523.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOD_523.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_523.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_523.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_523.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_523.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOD_523.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_523.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_523.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOD_523.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOD_523.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOD_523.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\SOT23.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT23.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT23.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT23.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT23.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\SOT404.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT404.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT404.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT404.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT404.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\SOT428_DPAK.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT428_DPAK.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT428_DPAK.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT428_DPAK.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT428_DPAK.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT428_DPAK.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT428_DPAK.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT428_DPAK.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT428_DPAK.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT428_DPAK.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT428_DPAK.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT428_DPAK.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT428_DPAK.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT428_DPAK.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT428_DPAK.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT428_DPAK.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT428_DPAK.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT428_DPAK.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT428_DPAK.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT428_DPAK.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT428_DPAK.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\SOT_323_3.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_323_3.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_323_3.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_323_3.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_323_3.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT_323_3.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_323_3.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_323_3.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_323_3.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_323_3.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT_323_3.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_323_3.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_323_3.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_323_3.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_323_3.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT_323_3.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_323_3.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_323_3.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_323_3.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_323_3.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT_323_3.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\SOT_96.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_96.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_96.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_96.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_96.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT_96.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_96.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_96.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_96.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_96.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT_96.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_96.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_96.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_96.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_96.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT_96.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_96.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_96.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT_96.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT_96.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT_96.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\TCMT1107_4.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TCMT1107_4.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TCMT1107_4.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TCMT1107_4.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TCMT1107_4.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TCMT1107_4.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TCMT1107_4.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TCMT1107_4.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TCMT1107_4.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TCMT1107_4.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TCMT1107_4.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TCMT1107_4.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TCMT1107_4.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TCMT1107_4.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TCMT1107_4.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TCMT1107_4.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TCMT1107_4.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TCMT1107_4.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TCMT1107_4.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TCMT1107_4.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TCMT1107_4.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\TSM_103_01_L_DV_A.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TSM_103_01_L_DV_A.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TSM_103_01_L_DV_A.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TSM_103_01_L_DV_A.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_103_01_L_DV_A.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TSM_103_01_L_DV_A.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\TSM_104_01_L_DV_A.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TSM_104_01_L_DV_A.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TSM_104_01_L_DV_A.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TSM_104_01_L_DV_A.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSM_104_01_L_DV_A.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TSM_104_01_L_DV_A.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\TSS0P_8.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSS0P_8.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSS0P_8.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSS0P_8.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSS0P_8.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TSS0P_8.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSS0P_8.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSS0P_8.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSS0P_8.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSS0P_8.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TSS0P_8.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSS0P_8.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSS0P_8.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSS0P_8.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSS0P_8.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TSS0P_8.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSS0P_8.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSS0P_8.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/TSS0P_8.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/TSS0P_8.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\TSS0P_8.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\VC0603_SMD.stp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/VC0603_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/VC0603_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/VC0603_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/VC0603_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\VC0603_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/VC0603_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/VC0603_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/VC0603_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/VC0603_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\VC0603_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/VC0603_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/VC0603_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/VC0603_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/VC0603_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\VC0603_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/VC0603_SMD.stp to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/VC0603_SMD.stp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/VC0603_SMD.stp D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/VC0603_SMD.stp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\VC0603_SMD.stp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\RLF_12545.igs">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\RLF_12545.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\RLF_12545.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\RLF_12545.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/RLF_12545.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/RLF_12545.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\RLF_12545.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\SOT23.igs">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT23.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT23.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT23.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT23.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT23.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT23.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\Idflibs\SOT404.igs">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT404.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT404.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT404.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.igs to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.igs</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/Idflibs/SOT404.igs D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Idf/Idflibs/SOT404.igs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Idf\Idflibs\SOT404.igs</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Idf\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/Idf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Idf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/Idf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Idf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/Idf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Idf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Idf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/Idf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Idf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\ZERO_CHECK.vcxproj">
+      <Project>{FC9EC38A-2C8D-31AA-8223-50EE9BFA1B59}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

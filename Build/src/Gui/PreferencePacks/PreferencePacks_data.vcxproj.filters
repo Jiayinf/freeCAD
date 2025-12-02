@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePacks\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePacks\FreeCAD Classic" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePacks\Dark behave" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePacks\FreeCAD Light" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePacks\FreeCAD Dark" />
+  </ItemGroup>
+  <ItemGroup>
+    <XML Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePacks\package.xml" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

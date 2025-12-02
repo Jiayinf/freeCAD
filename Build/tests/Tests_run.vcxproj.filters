@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\tests\Tests_run_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Axis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Bitmask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\BoundBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Builder3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\CoordinateSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\DualNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\DualQuaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Handle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Parameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Placement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Quantity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Rotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\TimeInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Tools2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Tools3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Vector3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\ViewProj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Base\Writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\Branding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\ComplexGeoData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\Document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\DocumentObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\DocumentObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\Expression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\ExpressionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\ElementMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\ElementNamingUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\IndexedName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\License.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\MappedElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\MappedName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\Metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\ProjectFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\Property.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\PropertyExpressionEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\StringHasher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\VarSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\App\VRMLObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Gui\Assistant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Misc\fmt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\zipios++\collectioncollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\zipios++\zipfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\tests\Tests_run_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\tests\Tests_run_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\tests\Tests_run_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84950D1F-C2EA-3858-935B-1D487F2DE85B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

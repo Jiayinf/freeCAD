@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Ext/freecad/CMakeLists.txt
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Ext/freecad/UiTools.py
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Ext/freecad/__init__.py.template
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Ext/freecad/freecad_doc.py
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Ext/freecad/module_io.py
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Ext/freecad/part.py
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Ext/freecad/partdesign.py
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Ext/freecad/project_utility.py
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Ext/freecad/sketcher.py
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Ext/freecad/utils.py
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Ext/freecad/utils_zip.py

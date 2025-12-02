@@ -1,0 +1,1745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMeshPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostPipelinePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemCcxImp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemElmerImp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemExportAbaqusImp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemGeneralImp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemGmshImp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemInOutVtkImp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemMystranImp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemZ88Imp.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraint.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintOnBoundary.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintBearing.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintFixed.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintRigidBody.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintForce.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintFluidBoundary.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPressure.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintSpring.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintGear.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPulley.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintDisplacement.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintTemperature.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintHeatflux.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintInitialTemperature.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPlaneRotation.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintContact.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintTransform.cpp">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\qrc_Fem.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\qrc_Fem_translation.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMesh.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMeshShape.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMeshShapeNetgen.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderAnalysis.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderSolver.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetNodes.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetElementNodes.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetElements.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetFaces.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetGeometry.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\FemSelectionGate.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraint.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintOnBoundary.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintBearing.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintFixed.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintRigidBody.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintForce.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintFluidBoundary.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintPressure.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintSpring.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintGear.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintPulley.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintDisplacement.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintTemperature.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintHeatflux.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintInitialTemperature.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintPlaneRotation.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintContact.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintTransform.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderResult.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskDlgCreateElementSet.cpp">
+      <Filter>Task_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskDlgCreateNodeSet.cpp">
+      <Filter>Task_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskDlgMeshShapeNetgen.cpp">
+      <Filter>Task_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskDlgAnalysis.cpp">
+      <Filter>Task_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskObjectName.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskCreateElementSet.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskCreateNodeSet.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskDriver.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskAnalysisInfo.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskTetParameter.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskPostBoxes.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\AppFemGui.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\AppFemGuiPy.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\AbaqusHighlighter.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ActiveAnalysisObserver.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Command.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\FemGuiTools.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\FemSettings.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\PreCompiled.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\PropertyFemMeshItem.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Workbench.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostObject.cpp">
+      <Filter>PostObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostPipeline.cpp">
+      <Filter>PostObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostFunction.cpp">
+      <Filter>PostObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostFilter.cpp">
+      <Filter>PostObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemCcxImp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemElmerImp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemExportAbaqusImp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemGeneralImp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemGmshImp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemInOutVtkImp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemMystranImp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemZ88Imp.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraint.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintOnBoundary.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintBearing.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintFixed.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintRigidBody.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintForce.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintFluidBoundary.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPressure.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintSpring.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintGear.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPulley.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintDisplacement.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintTemperature.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintHeatflux.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintInitialTemperature.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPlaneRotation.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintContact.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintTransform.h">
+      <Filter>Constraint-Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMesh.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMeshShape.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMeshShapeNetgen.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderAnalysis.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderSolver.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetNodes.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetElementNodes.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetElements.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetFaces.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderSetGeometry.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\FemSelectionGate.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraint.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintOnBoundary.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintBearing.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintFixed.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintRigidBody.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintForce.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintFluidBoundary.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintPressure.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintSpring.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintGear.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintPulley.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintDisplacement.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintTemperature.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintHeatflux.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintInitialTemperature.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintPlaneRotation.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintContact.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintTransform.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderResult.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskDlgCreateElementSet.h">
+      <Filter>Task_Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskDlgCreateNodeSet.h">
+      <Filter>Task_Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskDlgMeshShapeNetgen.h">
+      <Filter>Task_Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskDlgAnalysis.h">
+      <Filter>Task_Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskObjectName.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskCreateElementSet.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskCreateNodeSet.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskDriver.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskAnalysisInfo.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskTetParameter.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskPostBoxes.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\AbaqusHighlighter.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ActiveAnalysisObserver.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\FemGuiTools.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\FemSettings.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\PreCompiled.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\PropertyFemMeshItem.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Workbench.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostObject.h">
+      <Filter>PostObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostPipeline.h">
+      <Filter>PostObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostFunction.h">
+      <Filter>PostObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostFilter.h">
+      <Filter>PostObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_DlgSettingsFemCcx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_DlgSettingsFemElmer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_DlgSettingsFemExportAbaqus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_DlgSettingsFemGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_DlgSettingsFemGmsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_DlgSettingsFemInOutVtk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_DlgSettingsFemMystran.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_DlgSettingsFemZ88.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskFemConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskFemConstraintBearing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskFemConstraintFixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskFemConstraintRigidBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskFemConstraintForce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskFemConstraintFluidBoundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskFemConstraintPressure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskFemConstraintSpring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskFemConstraintDisplacement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskFemConstraintTemperature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskFemConstraintHeatflux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskFemConstraintInitialTemperature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskFemConstraintPlaneRotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskFemConstraintContact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskFemConstraintTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskObjectName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskCreateElementSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskCreateNodeSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskAnalysisInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskTetParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_BoxWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_CylinderWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_PlaneWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_SphereWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskPostClip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskPostContours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskPostCut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskPostDataAlongLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskPostDataAtPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskPostDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskPostScalarClip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\ui_TaskPostWarpVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_BodyHeatSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_ConstraintCentrif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_ConstraintTie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_ConstraintSectionPrint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_CurrentDensity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_DlgSettingsNetgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_ElectrostaticPotential.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_ElementFluid1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_ElementGeometry1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_ElementGeometry2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_ElementRotation1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_FlowVelocity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_InitialFlowVelocity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_InitialPressure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_Magnetization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_MaterialReinforcement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_MeshBoundaryLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_MeshGmsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_MeshGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_MeshGroupXDMFExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_MeshNetgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_MeshRegion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_ResultHints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_ResultShow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Debug\Resources\ui\ui_SolverCalculix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_BodyHeatSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_ConstraintCentrif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_ConstraintTie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_ConstraintSectionPrint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_CurrentDensity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_DlgSettingsNetgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_ElectrostaticPotential.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_ElementFluid1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_ElementGeometry1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_ElementGeometry2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_ElementRotation1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_FlowVelocity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_InitialFlowVelocity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_InitialPressure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_Magnetization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_MaterialReinforcement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_MeshBoundaryLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_MeshGmsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_MeshGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_MeshGroupXDMFExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_MeshNetgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_MeshRegion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_ResultHints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_ResultShow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Mod\Fem\Resources\ui\ui_SolverCalculix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_DlgSettingsFemCcx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_DlgSettingsFemElmer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_DlgSettingsFemExportAbaqus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_DlgSettingsFemGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_DlgSettingsFemGmsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_DlgSettingsFemInOutVtk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_DlgSettingsFemMystran.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_DlgSettingsFemZ88.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskFemConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskFemConstraintBearing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskFemConstraintFixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskFemConstraintRigidBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskFemConstraintForce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskFemConstraintFluidBoundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskFemConstraintPressure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskFemConstraintSpring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskFemConstraintDisplacement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskFemConstraintTemperature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskFemConstraintHeatflux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskFemConstraintInitialTemperature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskFemConstraintPlaneRotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskFemConstraintContact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskFemConstraintTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskObjectName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskCreateElementSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskCreateNodeSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskAnalysisInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskTetParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_BoxWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_CylinderWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_PlaneWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_SphereWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskPostClip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskPostContours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskPostCut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskPostDataAlongLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskPostDataAtPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskPostDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskPostScalarClip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\ui_TaskPostWarpVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_BodyHeatSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_ConstraintCentrif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_ConstraintTie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_ConstraintSectionPrint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_CurrentDensity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_DlgSettingsNetgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_ElectrostaticPotential.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_ElementFluid1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_ElementGeometry1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_ElementGeometry2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_ElementRotation1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_FlowVelocity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_InitialFlowVelocity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_InitialPressure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_Magnetization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_MaterialReinforcement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_MeshBoundaryLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_MeshGmsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_MeshGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_MeshGroupXDMFExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_MeshNetgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_MeshRegion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_ResultHints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_ResultShow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_Release\Resources\ui\ui_SolverCalculix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_DlgSettingsFemCcx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_DlgSettingsFemElmer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_DlgSettingsFemExportAbaqus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_DlgSettingsFemGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_DlgSettingsFemGmsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_DlgSettingsFemInOutVtk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_DlgSettingsFemMystran.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_DlgSettingsFemZ88.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskFemConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskFemConstraintBearing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskFemConstraintFixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskFemConstraintRigidBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskFemConstraintForce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskFemConstraintFluidBoundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskFemConstraintPressure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskFemConstraintSpring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskFemConstraintDisplacement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskFemConstraintTemperature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskFemConstraintHeatflux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskFemConstraintInitialTemperature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskFemConstraintPlaneRotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskFemConstraintContact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskFemConstraintTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskObjectName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskCreateElementSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskCreateNodeSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskAnalysisInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskTetParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_BoxWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_CylinderWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_PlaneWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_SphereWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskPostClip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskPostContours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskPostCut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskPostDataAlongLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskPostDataAtPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskPostDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskPostScalarClip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\ui_TaskPostWarpVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_BodyHeatSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_ConstraintCentrif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_ConstraintTie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_ConstraintSectionPrint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_CurrentDensity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_DlgSettingsNetgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_ElectrostaticPotential.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_ElementFluid1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_ElementGeometry1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_ElementGeometry2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_ElementRotation1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_FlowVelocity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_InitialFlowVelocity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_InitialPressure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_Magnetization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_MaterialReinforcement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_MeshBoundaryLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_MeshGmsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_MeshGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_MeshGroupXDMFExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_MeshNetgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_MeshRegion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_ResultHints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_ResultShow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_MinSizeRel\Resources\ui\ui_SolverCalculix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_DlgSettingsFemCcx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_DlgSettingsFemElmer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_DlgSettingsFemExportAbaqus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_DlgSettingsFemGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_DlgSettingsFemGmsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_DlgSettingsFemInOutVtk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_DlgSettingsFemMystran.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_DlgSettingsFemZ88.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskFemConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskFemConstraintBearing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskFemConstraintFixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskFemConstraintRigidBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskFemConstraintForce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskFemConstraintFluidBoundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskFemConstraintPressure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskFemConstraintSpring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskFemConstraintDisplacement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskFemConstraintTemperature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskFemConstraintHeatflux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskFemConstraintInitialTemperature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskFemConstraintPlaneRotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskFemConstraintContact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskFemConstraintTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskObjectName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskCreateElementSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskCreateNodeSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskAnalysisInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskTetParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_BoxWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_CylinderWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_PlaneWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_SphereWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskPostClip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskPostContours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskPostCut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskPostDataAlongLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskPostDataAtPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskPostDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskPostScalarClip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\ui_TaskPostWarpVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_BodyHeatSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_ConstraintCentrif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_ConstraintTie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_ConstraintSectionPrint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_CurrentDensity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_DlgSettingsNetgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_ElectrostaticPotential.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_ElementFluid1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_ElementGeometry1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_ElementGeometry2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_ElementRotation1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_FlowVelocity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_InitialFlowVelocity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_InitialPressure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_Magnetization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_MaterialReinforcement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_MeshBoundaryLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_MeshGmsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_MeshGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_MeshGroupXDMFExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_MeshNetgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_MeshRegion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_ResultHints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_ResultShow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\include_RelWithDebInfo\Resources\ui\ui_SolverCalculix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemConstraintPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemMeshPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\ViewProviderFemPostPipelinePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\Fem.qrc">
+      <Filter>Module</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_af.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_ar.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_be.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_bg.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_ca.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_cs.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_da.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_de.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_el.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_es-AR.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_es-ES.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_eu.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_fi.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_fil.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_fr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_gl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_hr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_hu.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_id.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_it.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_ja.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_ka.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_kab.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_ko.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_lt.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_nl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_no.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_pl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_pt-BR.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_pt-PT.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_ro.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_ru.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_sk.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_sl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_sr-CS.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_sr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_sv-SE.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_tr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_uk.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_val-ES.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_vi.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_zh-CN.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\d0ab7b27de9771d18b6874a9a564c234\Fem_zh-TW.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\Resources\Fem_translation.qrc" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\icons\FemWorkbench.svg" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\symbols\ConstraintContact.iv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\symbols\ConstraintDisplacement.iv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\symbols\ConstraintFixed.iv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\symbols\ConstraintForce.iv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\symbols\ConstraintHeatFlux.iv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\symbols\ConstraintPlaneRotation.iv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\symbols\ConstraintPressure.iv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\symbols\ConstraintRigidBody.iv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\symbols\ConstraintSectionPrint.iv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\symbols\ConstraintSpring.iv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\symbols\ConstraintTemperature.iv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\symbols\ConstraintTransform.iv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\symbols\ConstraintTie.iv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\BodyHeatSource.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ConstraintCentrif.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ConstraintSectionPrint.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ConstraintTie.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\CurrentDensity.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\DlgSettingsNetgen.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ElectrostaticPotential.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ElementFluid1D.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ElementGeometry1D.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ElementGeometry2D.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ElementRotation1D.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\FlowVelocity.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\InitialFlowVelocity.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\InitialPressure.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\Magnetization.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\Material.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\MaterialReinforcement.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\MeshBoundaryLayer.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\MeshGmsh.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\MeshGroup.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\MeshGroupXDMFExport.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\MeshNetgen.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\MeshRegion.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ResultHints.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\ResultShow.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\Resources\ui\SolverCalculix.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\053b6391f94135a98fa709e2a9d31961\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemCcx.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemElmer.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemExportAbaqus.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemGeneral.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemGmsh.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemInOutVtk.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemMystran.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\DlgSettingsFemZ88.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraint.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintBearing.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintFixed.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintRigidBody.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintForce.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintFluidBoundary.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPressure.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintSpring.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintDisplacement.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintTemperature.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintHeatflux.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintInitialTemperature.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintPlaneRotation.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintContact.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskFemConstraintTransform.ui">
+      <Filter>Constraint-Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskObjectName.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskCreateElementSet.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskCreateNodeSet.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskDriver.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskAnalysisInfo.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskTetParameter.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\BoxWidget.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\CylinderWidget.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\PlaneWidget.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\SphereWidget.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskPostClip.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskPostContours.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskPostCut.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskPostDataAlongLine.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskPostDataAtPoint.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskPostDisplay.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskPostScalarClip.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Fem\Gui\TaskPostWarpVector.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\autouic_Debug.stamp" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\autouic_Release.stamp" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Fem\Gui\FemGui_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2067397A-4887-3E54-AAD3-E25BDD7D8AA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Constraint-Dialogs">
+      <UniqueIdentifier>{63CF6CBD-45B2-39D9-9953-6CAF8F8ADDA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{71069E8A-DE13-3167-92BF-AF0808750EC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{EF3471BD-A246-3595-A3B3-7047DAAE22F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostObjects">
+      <UniqueIdentifier>{13DCCD92-1A50-3623-A7C9-CCCE431EAB0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python">
+      <UniqueIdentifier>{B82E98B3-5CAF-3E89-B4EF-3D34CE96AA99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{969176FB-8AC9-38B1-AA35-F97B995B99EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84950D1F-C2EA-3858-935B-1D487F2DE85B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task_Boxes">
+      <UniqueIdentifier>{245555B2-BE50-3B00-8675-46D1B92850BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task_Dialogs">
+      <UniqueIdentifier>{B4DFD875-B7E7-3DC9-8E82-1280D2CE3C7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewProvider">
+      <UniqueIdentifier>{C232B30A-9357-3E95-A9FA-45B54A1B8E84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

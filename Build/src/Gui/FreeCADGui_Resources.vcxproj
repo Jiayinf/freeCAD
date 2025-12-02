@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F57D113E-29D9-3A1F-A8E6-1E555939EBEE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>FreeCADGui_Resources</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\..;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\..;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Language;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\propertyeditor;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\TaskView;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Quarter;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\DAGView;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OpenGL\api;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\eigen3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\3Dconnexion\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtWidgets;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtGui;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtOpenGL;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtPrintSupport;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtSvg;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtSvgWidgets;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtNetwork;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtUiTools;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtUiPlugin;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtOpenGLWidgets;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtXml;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\shiboken6_generator\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include\QtGui;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\..;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\..;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Language;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\propertyeditor;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\TaskView;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Quarter;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\DAGView;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OpenGL\api;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\eigen3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\3Dconnexion\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtWidgets;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtGui;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtOpenGL;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtPrintSupport;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtSvg;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtSvgWidgets;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtNetwork;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtUiTools;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtUiPlugin;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtOpenGLWidgets;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtXml;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\shiboken6_generator\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include\QtGui;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\..;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\..;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Language;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\propertyeditor;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\TaskView;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Quarter;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\DAGView;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OpenGL\api;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\eigen3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\3Dconnexion\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtWidgets;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtGui;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtOpenGL;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtPrintSupport;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtSvg;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtSvgWidgets;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtNetwork;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtUiTools;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtUiPlugin;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtOpenGLWidgets;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtXml;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\shiboken6_generator\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include\QtGui;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\..;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\..;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Language;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\propertyeditor;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\TaskView;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Quarter;D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\DAGView;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OpenGL\api;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\eigen3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\3Dconnexion\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtWidgets;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtGui;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtOpenGL;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtPrintSupport;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtSvg;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtSvgWidgets;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtNetwork;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtUiTools;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtUiPlugin;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtOpenGLWidgets;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtXml;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\shiboken6_generator\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include\QtGui;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Lib\site-packages\PySide6\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\RemoteDebugger.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.ui to D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.ui</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.ui D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Ext\freecad\gui\RemoteDebugger.ui</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.ui to D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.ui</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.ui D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Ext\freecad\gui\RemoteDebugger.ui</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.ui to D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.ui</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.ui D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Ext\freecad\gui\RemoteDebugger.ui</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.ui to D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.ui</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.ui D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Ext\freecad\gui\RemoteDebugger.ui</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\RemoteDebugger.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.py to D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.py D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Ext\freecad\gui\RemoteDebugger.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.py to D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.py D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Ext\freecad\gui\RemoteDebugger.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.py to D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.py D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Ext\freecad\gui\RemoteDebugger.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.py to D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/RemoteDebugger.py D:/Project/FreeCAD-1.0.2-ori/Build/Ext/freecad/gui/RemoteDebugger.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Ext\freecad\gui\RemoteDebugger.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\3Dconnexion\3DConnexion.xml">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/3Dconnexion/3DConnexion.xml to D:/Project/FreeCAD-1.0.2-ori/Build/data/3Dconnexion/3DConnexion.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/3Dconnexion/3DConnexion.xml D:/Project/FreeCAD-1.0.2-ori/Build/data/3Dconnexion/3DConnexion.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\3Dconnexion\3DConnexion.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/3Dconnexion/3DConnexion.xml to D:/Project/FreeCAD-1.0.2-ori/Build/data/3Dconnexion/3DConnexion.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/3Dconnexion/3DConnexion.xml D:/Project/FreeCAD-1.0.2-ori/Build/data/3Dconnexion/3DConnexion.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\3Dconnexion\3DConnexion.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/3Dconnexion/3DConnexion.xml to D:/Project/FreeCAD-1.0.2-ori/Build/data/3Dconnexion/3DConnexion.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/3Dconnexion/3DConnexion.xml D:/Project/FreeCAD-1.0.2-ori/Build/data/3Dconnexion/3DConnexion.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\3Dconnexion\3DConnexion.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/3Dconnexion/3DConnexion.xml to D:/Project/FreeCAD-1.0.2-ori/Build/data/3Dconnexion/3DConnexion.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/3Dconnexion/3DConnexion.xml D:/Project/FreeCAD-1.0.2-ori/Build/data/3Dconnexion/3DConnexion.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\3Dconnexion\3DConnexion.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Gui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Language\FreeCAD_translation.qrc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Icons\resource.qrc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Language\translation.qrc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\schemes.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Gui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Language\FreeCAD_translation.qrc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Icons\resource.qrc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Language\translation.qrc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\schemes.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Gui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Language\FreeCAD_translation.qrc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Icons\resource.qrc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Language\translation.qrc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\schemes.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Gui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Language\FreeCAD_translation.qrc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Icons\resource.qrc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Language\translation.qrc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\schemes.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\ZERO_CHECK.vcxproj">
+      <Project>{FC9EC38A-2C8D-31AA-8223-50EE9BFA1B59}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

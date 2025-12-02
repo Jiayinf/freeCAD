@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\CAM\PathSimulator\AppGL\CAMSimulator_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\AppCAMSimulator.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\CAMSim.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\CAMSimPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\DlgCAMSimulator.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\PreCompiled.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\EndMill.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\GCodeParser.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\GlUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\GuiDisplay.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\MillPathLine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\MillPathSegment.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\MillSimulation.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\Shader.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\SimDisplay.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\SimShapes.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\StockObject.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\SolidObject.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\Texture.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\TextureLoader.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\CAM\PathSimulator\AppGL\CAMSimulator_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\CAM\PathSimulator\AppGL\CAMSimulator_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\CAM\PathSimulator\AppGL\CAMSimulator_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\CAMSim.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\DlgCAMSimulator.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\PreCompiled.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\EndMill.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\GCodeParser.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\GlUtils.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\GuiDisplay.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\linmath.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\MillMotion.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\MillPathLine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\MillPathSegment.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\MillSimulation.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\OpenGlWrapper.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\Shader.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\SimDisplay.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\SimShapes.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\StockObject.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\SolidObject.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\Texture.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\TextureLoader.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\CAMSimPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\CAM\PathSimulator\AppGL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{10D54308-CC26-311E-A22D-F7F8A1227075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{EF3471BD-A246-3595-A3B3-7047DAAE22F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python">
+      <UniqueIdentifier>{B82E98B3-5CAF-3E89-B4EF-3D34CE96AA99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84950D1F-C2EA-3858-935B-1D487F2DE85B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

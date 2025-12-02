@@ -1,0 +1,978 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7C2A851D-0DE8-3D3C-BE0F-36248DCFD9FE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>SketcherScripts</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Sketcher\Init.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Init.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Init.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Init.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Init.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\Init.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Init.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Init.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Init.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Init.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\Init.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Init.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Init.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Init.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Init.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\Init.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Init.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Init.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Init.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Init.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\Init.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Sketcher\SketcherExample.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherExample.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherExample.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherExample.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherExample.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherExample.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherExample.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherExample.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherExample.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherExample.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherExample.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherExample.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherExample.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherExample.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherExample.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherExample.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherExample.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherExample.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherExample.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherExample.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherExample.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Sketcher\TestSketcherApp.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherApp.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherApp.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherApp.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherApp.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\TestSketcherApp.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherApp.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherApp.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherApp.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherApp.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\TestSketcherApp.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherApp.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherApp.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherApp.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherApp.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\TestSketcherApp.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherApp.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherApp.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherApp.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherApp.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\TestSketcherApp.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Sketcher\Profiles.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Profiles.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Profiles.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Profiles.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Profiles.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\Profiles.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Profiles.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Profiles.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Profiles.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Profiles.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\Profiles.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Profiles.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Profiles.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Profiles.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Profiles.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\Profiles.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Profiles.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Profiles.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/Profiles.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/Profiles.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\Profiles.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Sketcher\InitGui.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/InitGui.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/InitGui.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/InitGui.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/InitGui.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\InitGui.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/InitGui.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/InitGui.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/InitGui.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/InitGui.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\InitGui.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/InitGui.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/InitGui.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/InitGui.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/InitGui.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\InitGui.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/InitGui.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/InitGui.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/InitGui.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/InitGui.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\InitGui.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Sketcher\TestSketcherGui.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherGui.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherGui.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherGui.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherGui.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\TestSketcherGui.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherGui.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherGui.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherGui.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherGui.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\TestSketcherGui.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherGui.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherGui.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherGui.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherGui.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\TestSketcherGui.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherGui.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherGui.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/TestSketcherGui.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/TestSketcherGui.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\TestSketcherGui.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Sketcher\ProfileLib\Hexagon.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/Hexagon.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/Hexagon.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/Hexagon.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/Hexagon.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\ProfileLib\Hexagon.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/Hexagon.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/Hexagon.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/Hexagon.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/Hexagon.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\ProfileLib\Hexagon.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/Hexagon.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/Hexagon.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/Hexagon.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/Hexagon.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\ProfileLib\Hexagon.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/Hexagon.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/Hexagon.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/Hexagon.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/Hexagon.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\ProfileLib\Hexagon.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Sketcher\ProfileLib\RegularPolygon.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/RegularPolygon.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/RegularPolygon.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/RegularPolygon.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/RegularPolygon.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\ProfileLib\RegularPolygon.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/RegularPolygon.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/RegularPolygon.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/RegularPolygon.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/RegularPolygon.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\ProfileLib\RegularPolygon.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/RegularPolygon.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/RegularPolygon.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/RegularPolygon.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/RegularPolygon.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\ProfileLib\RegularPolygon.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/RegularPolygon.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/RegularPolygon.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/RegularPolygon.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/RegularPolygon.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\ProfileLib\RegularPolygon.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Sketcher\ProfileLib\__init__.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/__init__.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/__init__.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/__init__.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\ProfileLib\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/__init__.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/__init__.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/__init__.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\ProfileLib\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/__init__.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/__init__.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/__init__.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\ProfileLib\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/__init__.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/ProfileLib/__init__.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/ProfileLib/__init__.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\ProfileLib\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Sketcher\SketcherTests\__init__.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/__init__.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/__init__.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/__init__.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/__init__.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/__init__.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/__init__.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/__init__.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/__init__.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/__init__.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/__init__.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/__init__.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/__init__.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Sketcher\SketcherTests\TestSketchFillet.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchFillet.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchFillet.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchFillet.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchFillet.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketchFillet.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchFillet.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchFillet.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchFillet.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchFillet.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketchFillet.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchFillet.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchFillet.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchFillet.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchFillet.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketchFillet.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchFillet.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchFillet.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchFillet.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchFillet.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketchFillet.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Sketcher\SketcherTests\TestSketcherSolver.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketcherSolver.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketcherSolver.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketcherSolver.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketcherSolver.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketcherSolver.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketcherSolver.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketcherSolver.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketcherSolver.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketcherSolver.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketcherSolver.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketcherSolver.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketcherSolver.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketcherSolver.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketcherSolver.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketcherSolver.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketcherSolver.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketcherSolver.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketcherSolver.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketcherSolver.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketcherSolver.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Sketcher\SketcherTests\TestSketchExpression.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchExpression.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchExpression.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchExpression.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchExpression.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketchExpression.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchExpression.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchExpression.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchExpression.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchExpression.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketchExpression.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchExpression.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchExpression.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchExpression.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchExpression.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketchExpression.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchExpression.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchExpression.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchExpression.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchExpression.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketchExpression.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Sketcher\SketcherTests\TestSketchValidateCoincidents.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketchValidateCoincidents.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketchValidateCoincidents.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketchValidateCoincidents.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/Sketcher/SketcherTests/TestSketchValidateCoincidents.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\Sketcher\SketcherTests\TestSketchValidateCoincidents.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Sketcher\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/Sketcher/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Sketcher\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/Sketcher/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Sketcher\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/Sketcher/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Sketcher\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Sketcher/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/Sketcher/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Sketcher\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\ZERO_CHECK.vcxproj">
+      <Project>{FC9EC38A-2C8D-31AA-8223-50EE9BFA1B59}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\PartDesign\App\PartDesign_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\Feature.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureSolid.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\Body.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureBase.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\ShapeBinder.cpp">
+      <Filter>DatumFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\DatumPlane.cpp">
+      <Filter>DatumFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\DatumLine.cpp">
+      <Filter>DatumFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\DatumPoint.cpp">
+      <Filter>DatumFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\DatumCS.cpp">
+      <Filter>DatumFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureTransformed.cpp">
+      <Filter>FeaturesTransformed</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureMirrored.cpp">
+      <Filter>FeaturesTransformed</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureLinearPattern.cpp">
+      <Filter>FeaturesTransformed</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeaturePolarPattern.cpp">
+      <Filter>FeaturesTransformed</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureScaled.cpp">
+      <Filter>FeaturesTransformed</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureMultiTransform.cpp">
+      <Filter>FeaturesTransformed</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureExtrude.cpp">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureSketchBased.cpp">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeaturePad.cpp">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeaturePocket.cpp">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureRevolution.cpp">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureGroove.cpp">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureAddSub.cpp">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureHole.cpp">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureBoolean.cpp">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeaturePrimitive.cpp">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeaturePipe.cpp">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureLoft.cpp">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureHelix.cpp">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureDressUp.cpp">
+      <Filter>DressUpFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureFillet.cpp">
+      <Filter>DressUpFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureChamfer.cpp">
+      <Filter>DressUpFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureDraft.cpp">
+      <Filter>DressUpFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureThickness.cpp">
+      <Filter>DressUpFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\AppPartDesign.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\AppPartDesignPy.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\PreCompiled.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\Measure.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\BodyPyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeaturePyImp.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\PartDesign\App\PartDesign_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\PartDesign\App\PartDesign_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\PartDesign\App\PartDesign_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\Feature.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureSolid.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\Body.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureBase.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\ShapeBinder.h">
+      <Filter>DatumFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\DatumPlane.h">
+      <Filter>DatumFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\DatumLine.h">
+      <Filter>DatumFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\DatumPoint.h">
+      <Filter>DatumFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\DatumCS.h">
+      <Filter>DatumFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureTransformed.h">
+      <Filter>FeaturesTransformed</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureMirrored.h">
+      <Filter>FeaturesTransformed</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureLinearPattern.h">
+      <Filter>FeaturesTransformed</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeaturePolarPattern.h">
+      <Filter>FeaturesTransformed</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureScaled.h">
+      <Filter>FeaturesTransformed</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureMultiTransform.h">
+      <Filter>FeaturesTransformed</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureExtrude.h">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureSketchBased.h">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeaturePad.h">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeaturePocket.h">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureRevolution.h">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureGroove.h">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureAddSub.h">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureHole.h">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureBoolean.h">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeaturePrimitive.h">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeaturePipe.h">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureLoft.h">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureHelix.h">
+      <Filter>SketchBasedFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureDressUp.h">
+      <Filter>DressUpFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureFillet.h">
+      <Filter>DressUpFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureChamfer.h">
+      <Filter>DressUpFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureDraft.h">
+      <Filter>DressUpFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeatureThickness.h">
+      <Filter>DressUpFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\PreCompiled.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\Measure.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\BodyPy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\FeaturePy.xml">
+      <Filter>Python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\PartDesign\App\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DatumFeatures">
+      <UniqueIdentifier>{93B804B7-ABF0-3022-8CFE-F3888FB3E942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DressUpFeatures">
+      <UniqueIdentifier>{0B15B9F8-866D-38D3-BEF4-6DD70A98117E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{C43ED3FF-EBBF-3CD9-92C7-C18A9925827D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FeaturesTransformed">
+      <UniqueIdentifier>{01362803-A97E-39EA-82D8-54B7FB8A6361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{EF3471BD-A246-3595-A3B3-7047DAAE22F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python">
+      <UniqueIdentifier>{B82E98B3-5CAF-3E89-B4EF-3D34CE96AA99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SketchBasedFeatures">
+      <UniqueIdentifier>{8938015C-3DDE-3405-A225-4A6B32B0A5B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84950D1F-C2EA-3858-935B-1D487F2DE85B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+include("D:/Project/FreeCAD-1.0.2-ori/Build/tests/Assembly_tests_run[1]_include-${CTEST_CONFIGURATION_TYPE}.cmake")

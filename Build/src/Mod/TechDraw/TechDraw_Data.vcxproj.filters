@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\Init.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TestTechDrawApp.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TestTechDrawGui.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\InitGui.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\PAT\FCPAT.pat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\CSVdata\FillTemplateFields.csv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\LineGroup\ANSI.Y14.2M.1992.ElementDef.csv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\LineGroup\ANSI.Y14.2M.1992.LineDef.csv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\LineGroup\ASME.Y14.2.2008.ElementDef.csv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\LineGroup\ASME.Y14.2.2008.LineDef.csv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\LineGroup\ISO.128.20.1996.ElementDef.csv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\LineGroup\ISO.128.20.1996.LineDef.csv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\LineGroup\LineGroup.csv" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TechDrawTools\__init__.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TechDrawTools\CommandMoveView.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TechDrawTools\CommandShareView.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TechDrawTools\CommandAxoLengthDimension.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TechDrawTools\CommandPositionSectionView.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TechDrawTools\CommandFillTemplateFields.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TechDrawTools\CommandVertexCreations.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TechDrawTools\CommandHoleShaftFit.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TechDrawTools\TaskMoveView.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TechDrawTools\TaskShareView.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TechDrawTools\TaskFillTemplateFields.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TechDrawTools\TaskHoleShaftFit.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TechDrawTools\TaskAddOffsetVertex.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TechDrawTools\TDToolsUtil.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TechDrawTools\TDToolsMovers.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\Gui\TaskMoveView.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\Gui\TaskHoleShaftFit.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\Gui\TaskAddOffsetVertex.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\Gui\DlgPageChooser.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3FF39157-A7E5-3044-9EE3-B037BC5914A5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>E57Format</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E57Format.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E57Format-d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E57Format.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E57Format</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E57Format.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E57Format</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E57Format.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E57Format</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\include_Debug;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\extern\CRCpp\inc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include" /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;FC_DEBUG;E57Format_EXPORTS;CRCPP_USE_CPP11;CRCPP_BRANCHLESS;REVISION_ID="E57Format-2.2.1-AMD64_64-windows";E57_DEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;FC_DEBUG;E57Format_EXPORTS;CRCPP_USE_CPP11;CRCPP_BRANCHLESS;REVISION_ID=\"E57Format-2.2.1-AMD64_64-windows\";E57_DEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\include_Debug;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\extern\CRCpp\inc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\include_Debug;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\extern\CRCpp\inc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target E57Format</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/libE57Format/CMakeFiles/E57Format_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\include_Release;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\extern\CRCpp\inc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include" /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;E57Format_EXPORTS;CRCPP_USE_CPP11;CRCPP_BRANCHLESS;REVISION_ID="E57Format-2.2.1-AMD64_64-windows";E57_DEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;HAVE_OPENGL_EXT;VTK_OPENGL2_BACKEND;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;E57Format_EXPORTS;CRCPP_USE_CPP11;CRCPP_BRANCHLESS;REVISION_ID=\"E57Format-2.2.1-AMD64_64-windows\";E57_DEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;HAVE_OPENGL_EXT;VTK_OPENGL2_BACKEND;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\include_Release;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\extern\CRCpp\inc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\include_Release;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\extern\CRCpp\inc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target E57Format</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/libE57Format/CMakeFiles/E57Format_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\include_MinSizeRel;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\extern\CRCpp\inc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include" /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;E57Format_EXPORTS;CRCPP_USE_CPP11;CRCPP_BRANCHLESS;REVISION_ID="E57Format-2.2.1-AMD64_64-windows";E57_DEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;E57Format_EXPORTS;CRCPP_USE_CPP11;CRCPP_BRANCHLESS;REVISION_ID=\"E57Format-2.2.1-AMD64_64-windows\";E57_DEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\include_MinSizeRel;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\extern\CRCpp\inc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\include_MinSizeRel;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\extern\CRCpp\inc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target E57Format</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/libE57Format/CMakeFiles/E57Format_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\include_RelWithDebInfo;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\extern\CRCpp\inc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include" /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;E57Format_EXPORTS;CRCPP_USE_CPP11;CRCPP_BRANCHLESS;REVISION_ID="E57Format-2.2.1-AMD64_64-windows";E57_DEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;E57Format_EXPORTS;CRCPP_USE_CPP11;CRCPP_BRANCHLESS;REVISION_ID=\"E57Format-2.2.1-AMD64_64-windows\";E57_DEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\include_RelWithDebInfo;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\extern\CRCpp\inc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\include_RelWithDebInfo;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\extern\CRCpp\inc;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target E57Format</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/libE57Format/CMakeFiles/E57Format_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/libE57Format/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/libE57Format/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindXercesC.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\GenerateExportHeader.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\cmake\Modules\ClangFormat.cmake;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\cmake\Modules\E57ExportHeader.cmake;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\cmake\Modules\Tags.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/libE57Format/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/libE57Format/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindXercesC.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\GenerateExportHeader.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\cmake\Modules\ClangFormat.cmake;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\cmake\Modules\E57ExportHeader.cmake;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\cmake\Modules\Tags.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/libE57Format/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/libE57Format/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindXercesC.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\GenerateExportHeader.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\cmake\Modules\ClangFormat.cmake;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\cmake\Modules\E57ExportHeader.cmake;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\cmake\Modules\Tags.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/libE57Format/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/libE57Format/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\FindXercesC.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\GenerateExportHeader.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\cmake\Modules\ClangFormat.cmake;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\cmake\Modules\E57ExportHeader.cmake;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\cmake\Modules\Tags.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Export.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\extern\CRCpp\inc\CRC.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include\E57Exception.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include\E57Format.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include\E57SimpleData.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include\E57SimpleReader.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\include\E57SimpleWriter.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\BlobNodeImpl.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\BlobNodeImpl.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\CheckedFile.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\CheckedFile.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\Common.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\Common.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\CompressedVectorNodeImpl.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\CompressedVectorNodeImpl.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\CompressedVectorReaderImpl.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\CompressedVectorReaderImpl.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\CompressedVectorWriterImpl.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\CompressedVectorWriterImpl.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\DecodeChannel.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\DecodeChannel.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\Decoder.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\Decoder.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\Encoder.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\Encoder.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\FloatNodeImpl.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\FloatNodeImpl.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\IntegerNodeImpl.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\IntegerNodeImpl.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\NodeImpl.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\NodeImpl.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\Packet.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\Packet.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\ImageFileImpl.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\ImageFileImpl.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\ReaderImpl.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\ReaderImpl.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\ScaledIntegerNodeImpl.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\ScaledIntegerNodeImpl.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\SectionHeaders.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\SectionHeaders.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\SourceDestBufferImpl.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\SourceDestBufferImpl.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\StringNodeImpl.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\StringNodeImpl.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\StructureNodeImpl.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\StructureNodeImpl.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\VectorNodeImpl.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\VectorNodeImpl.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\WriterImpl.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\WriterImpl.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\E57Exception.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\E57Format.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\E57SimpleData.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\E57SimpleReader.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\E57SimpleWriter.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\E57Version.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\E57XmlParser.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\libE57Format\src\E57XmlParser.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\libE57Format\E57Format_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\ZERO_CHECK.vcxproj">
+      <Project>{FC9EC38A-2C8D-31AA-8223-50EE9BFA1B59}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

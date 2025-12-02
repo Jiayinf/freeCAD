@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+D:/Project/FreeCAD-1.0.2-ori/Build/src/Gui/Language/FreeCAD_translation.qrc
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/CMakeLists.txt
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/Icons/resource.qrc
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/Language/translation.qrc
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Gui/QSint/actionpanel/schemes.qrc

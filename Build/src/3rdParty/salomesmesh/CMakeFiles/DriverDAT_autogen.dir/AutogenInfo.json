@@ -1,0 +1,121 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/DriverDAT_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Project/FreeCAD-1.0.2-ori/Build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh",
+	"CMAKE_EXECUTABLE" : "D:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "D:/Project/FreeCAD-1.0.2-ori/FreeCAD",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/inc/DriverDAT_R_SMDS_Mesh.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/inc/DriverDAT_R_SMESHDS_Document.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/inc/DriverDAT_R_SMESHDS_Mesh.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/inc/DriverDAT_W_SMDS_Mesh.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/inc/DriverDAT_W_SMESHDS_Document.h",
+			"mU",
+			"",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/inc/DriverDAT_W_SMESHDS_Mesh.h",
+			"mU",
+			"",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/DriverDAT_autogen/include",
+	"INCLUDE_DIR_Debug" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/DriverDAT_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/DriverDAT_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/DriverDAT_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/DriverDAT_autogen/include_Release",
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/DriverDAT_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/DriverDAT_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/DriverDAT_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/DriverDAT_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/DriverDAT_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "",
+	"QT_UIC_EXECUTABLE" : "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/./bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 7,
+	"SETTINGS_FILE" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/DriverDAT_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/DriverDAT_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/DriverDAT_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/DriverDAT_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/DriverDAT_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/src/DriverDAT/DAT_Test.cpp",
+			"mU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/src/DriverDAT/DriverDAT_R_SMDS_Mesh.cpp",
+			"mU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/src/DriverDAT/DriverDAT_R_SMESHDS_Document.cpp",
+			"mU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/src/DriverDAT/DriverDAT_R_SMESHDS_Mesh.cpp",
+			"mU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/src/DriverDAT/DriverDAT_W_SMDS_Mesh.cpp",
+			"mU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/src/DriverDAT/DriverDAT_W_SMESHDS_Document.cpp",
+			"mU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/src/DriverDAT/DriverDAT_W_SMESHDS_Mesh.cpp",
+			"mU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,1146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{614EE049-0D41-34EE-95A5-EACD5E49BB51}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>TDTestTarget</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\__init__.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/__init__.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/__init__.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/__init__.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/__init__.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/__init__.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/__init__.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/__init__.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/__init__.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/__init__.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/__init__.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/__init__.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/__init__.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/__init__.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\__init__.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\DrawHatchTest.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawHatchTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawHatchTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawHatchTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawHatchTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawHatchTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawHatchTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawHatchTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawHatchTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawHatchTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawHatchTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawHatchTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawHatchTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawHatchTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawHatchTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawHatchTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawHatchTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawHatchTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawHatchTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawHatchTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawHatchTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\DrawProjectionGroupTest.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawProjectionGroupTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawProjectionGroupTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawProjectionGroupTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawProjectionGroupTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawProjectionGroupTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\DrawViewAnnotationTest.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewAnnotationTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewAnnotationTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewAnnotationTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewAnnotationTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewAnnotationTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\DrawViewImageTest.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewImageTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewImageTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewImageTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewImageTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewImageTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewImageTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewImageTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewImageTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewImageTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewImageTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewImageTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewImageTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewImageTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewImageTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewImageTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewImageTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewImageTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewImageTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewImageTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewImageTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\DrawViewSymbolTest.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSymbolTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSymbolTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSymbolTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSymbolTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewSymbolTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSymbolTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSymbolTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSymbolTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSymbolTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewSymbolTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSymbolTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSymbolTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSymbolTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSymbolTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewSymbolTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSymbolTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSymbolTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSymbolTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSymbolTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewSymbolTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\DrawViewDimensionTest.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDimensionTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDimensionTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDimensionTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDimensionTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewDimensionTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDimensionTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDimensionTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDimensionTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDimensionTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewDimensionTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDimensionTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDimensionTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDimensionTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDimensionTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewDimensionTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDimensionTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDimensionTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDimensionTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDimensionTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewDimensionTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\DrawViewPartTest.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewPartTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewPartTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewPartTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewPartTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewPartTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewPartTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewPartTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewPartTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewPartTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewPartTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewPartTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewPartTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewPartTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewPartTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewPartTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewPartTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewPartTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewPartTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewPartTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewPartTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\DrawViewSectionTest.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSectionTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSectionTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSectionTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSectionTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewSectionTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSectionTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSectionTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSectionTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSectionTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewSectionTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSectionTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSectionTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSectionTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSectionTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewSectionTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSectionTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSectionTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewSectionTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewSectionTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewSectionTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\DrawViewBalloonTest.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewBalloonTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewBalloonTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewBalloonTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewBalloonTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewBalloonTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewBalloonTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewBalloonTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewBalloonTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewBalloonTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewBalloonTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewBalloonTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewBalloonTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewBalloonTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewBalloonTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewBalloonTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewBalloonTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewBalloonTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewBalloonTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewBalloonTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewBalloonTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\DrawViewDetailTest.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDetailTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDetailTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDetailTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDetailTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewDetailTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDetailTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDetailTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDetailTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDetailTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewDetailTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDetailTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDetailTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDetailTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDetailTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewDetailTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDetailTest.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDetailTest.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/DrawViewDetailTest.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/DrawViewDetailTest.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\DrawViewDetailTest.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\TechDrawTestUtilities.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TechDrawTestUtilities.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TechDrawTestUtilities.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TechDrawTestUtilities.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TechDrawTestUtilities.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TechDrawTestUtilities.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TechDrawTestUtilities.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TechDrawTestUtilities.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TechDrawTestUtilities.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TechDrawTestUtilities.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TechDrawTestUtilities.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TechDrawTestUtilities.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TechDrawTestUtilities.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TechDrawTestUtilities.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TechDrawTestUtilities.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TechDrawTestUtilities.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TechDrawTestUtilities.py to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TechDrawTestUtilities.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TechDrawTestUtilities.py D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TechDrawTestUtilities.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TechDrawTestUtilities.py</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\TestHatch.svg">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestHatch.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestHatch.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestHatch.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestHatch.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestHatch.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestHatch.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestHatch.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestHatch.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestHatch.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestHatch.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestHatch.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestHatch.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestHatch.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestHatch.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestHatch.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestHatch.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestHatch.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestHatch.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestHatch.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestHatch.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\TestImage.png">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestImage.png to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestImage.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestImage.png D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestImage.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestImage.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestImage.png to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestImage.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestImage.png D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestImage.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestImage.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestImage.png to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestImage.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestImage.png D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestImage.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestImage.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestImage.png to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestImage.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestImage.png D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestImage.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestImage.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\TestSymbol.svg">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestSymbol.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestSymbol.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestSymbol.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestSymbol.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestSymbol.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestSymbol.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestSymbol.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestSymbol.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestSymbol.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestSymbol.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestSymbol.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestSymbol.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestSymbol.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestSymbol.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestSymbol.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestSymbol.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestSymbol.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestSymbol.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestSymbol.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestSymbol.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\TestNonAsciiSymbol.svg">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestNonAsciiSymbol.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestNonAsciiSymbol.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestNonAsciiSymbol.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestNonAsciiSymbol.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestNonAsciiSymbol.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\TDTest\TestTemplate.svg">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestTemplate.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestTemplate.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestTemplate.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestTemplate.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestTemplate.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestTemplate.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestTemplate.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestTemplate.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestTemplate.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestTemplate.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestTemplate.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestTemplate.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestTemplate.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestTemplate.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestTemplate.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestTemplate.svg to D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestTemplate.svg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/TDTest/TestTemplate.svg D:/Project/FreeCAD-1.0.2-ori/Build/Mod/TechDraw/TDTest/TestTemplate.svg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\Mod\TechDraw\TDTest\TestTemplate.svg</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\TechDraw\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/TechDraw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\TechDraw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/TechDraw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\TechDraw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/TechDraw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\TechDraw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/TechDraw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/TechDraw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\TechDraw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\ZERO_CHECK.vcxproj">
+      <Project>{FC9EC38A-2C8D-31AA-8223-50EE9BFA1B59}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

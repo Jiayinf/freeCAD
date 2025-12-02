@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\qrc_Robot.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\qrc_Robot_translation.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\AppRobotGui.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\PreCompiled.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\Workbench.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\ViewProviderRobotObject.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\ViewProviderTrajectory.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\ViewProviderEdge2TracObject.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\ViewProviderTrajectoryCompound.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\ViewProviderTrajectoryDressUp.cpp">
+      <Filter>ViewProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\Command.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\CommandTrajectory.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\CommandInsertRobot.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\CommandExport.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskRobot6Axis.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskTrajectory.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskRobotMessages.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskRobotControl.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TrajectorySimulate.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskEdge2TracParameter.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskTrajectoryDressUpParameter.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskWatcher.cpp">
+      <Filter>Task_Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskDlgSimulate.cpp">
+      <Filter>Task_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskDlgEdge2Trac.cpp">
+      <Filter>Task_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskDlgTrajectoryCompound.cpp">
+      <Filter>Task_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskDlgTrajectoryDressUp.cpp">
+      <Filter>Task_Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\PreCompiled.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\Workbench.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\ViewProviderRobotObject.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\ViewProviderTrajectory.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\ViewProviderEdge2TracObject.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\ViewProviderTrajectoryCompound.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\ViewProviderTrajectoryDressUp.h">
+      <Filter>ViewProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskRobot6Axis.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskTrajectory.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskRobotMessages.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskRobotControl.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TrajectorySimulate.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskEdge2TracParameter.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskTrajectoryDressUpParameter.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskWatcher.h">
+      <Filter>Task_Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskDlgSimulate.h">
+      <Filter>Task_Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskDlgEdge2Trac.h">
+      <Filter>Task_Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskDlgTrajectoryCompound.h">
+      <Filter>Task_Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskDlgTrajectoryDressUp.h">
+      <Filter>Task_Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_Debug\ui_TaskRobot6Axis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_Debug\ui_TaskTrajectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_Debug\ui_TaskRobotMessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_Debug\ui_TaskRobotControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_Debug\ui_TrajectorySimulate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_Debug\ui_TaskEdge2TracParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_Debug\ui_TaskTrajectoryDressUpParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_Release\ui_TaskRobot6Axis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_Release\ui_TaskTrajectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_Release\ui_TaskRobotMessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_Release\ui_TaskRobotControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_Release\ui_TrajectorySimulate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_Release\ui_TaskEdge2TracParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_Release\ui_TaskTrajectoryDressUpParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_MinSizeRel\ui_TaskRobot6Axis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_MinSizeRel\ui_TaskTrajectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_MinSizeRel\ui_TaskRobotMessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_MinSizeRel\ui_TaskRobotControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_MinSizeRel\ui_TrajectorySimulate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_MinSizeRel\ui_TaskEdge2TracParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_MinSizeRel\ui_TaskTrajectoryDressUpParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_RelWithDebInfo\ui_TaskRobot6Axis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_RelWithDebInfo\ui_TaskTrajectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_RelWithDebInfo\ui_TaskRobotMessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_RelWithDebInfo\ui_TaskRobotControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_RelWithDebInfo\ui_TrajectorySimulate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_RelWithDebInfo\ui_TaskEdge2TracParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\include_RelWithDebInfo\ui_TaskTrajectoryDressUpParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\Resources\Robot.qrc">
+      <Filter>Module</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_af.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_ar.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_be.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_bg.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_ca.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_cs.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_da.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_de.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_el.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_es-AR.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_es-ES.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_eu.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_fi.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_fil.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_fr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_gl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_hr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_hu.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_id.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_it.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_ja.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_ka.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_kab.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_ko.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_lt.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_nl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_no.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_pl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_pt-BR.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_pt-PT.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_ro.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_ru.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_sk.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_sl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_sr-CS.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_sr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_sv-SE.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_tr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_uk.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_val-ES.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_vi.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_zh-CN.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\32099ae6c06788768c9f0c30294f535f\Robot_zh-TW.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\Resources\Robot_translation.qrc" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\Resources\icons\RobotWorkbench.svg" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\06557cc69f5587d9a5d1c99409eda6a8\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskRobot6Axis.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskTrajectory.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskRobotMessages.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskRobotControl.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TrajectorySimulate.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskEdge2TracParameter.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Robot\Gui\TaskTrajectoryDressUpParameter.ui">
+      <Filter>Task_Boxes</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\autouic_Debug.stamp" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\autouic_Release.stamp" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Robot\Gui\RobotGui_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2067397A-4887-3E54-AAD3-E25BDD7D8AA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands">
+      <UniqueIdentifier>{361EB075-1875-3C42-A413-4085AF299CE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{71069E8A-DE13-3167-92BF-AF0808750EC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{EF3471BD-A246-3595-A3B3-7047DAAE22F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{969176FB-8AC9-38B1-AA35-F97B995B99EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84950D1F-C2EA-3858-935B-1D487F2DE85B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task_Boxes">
+      <UniqueIdentifier>{245555B2-BE50-3B00-8675-46D1B92850BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task_Dialogs">
+      <UniqueIdentifier>{B4DFD875-B7E7-3DC9-8E82-1280D2CE3C7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewProvider">
+      <UniqueIdentifier>{C232B30A-9357-3E95-A9FA-45B54A1B8E84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

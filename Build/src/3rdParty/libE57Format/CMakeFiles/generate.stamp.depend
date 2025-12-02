@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake
+D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake
+D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCompilerFlag.cmake
+D:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake
+D:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake
+D:/Program Files/CMake/share/cmake-3.31/Modules/CheckSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake
+D:/Program Files/CMake/share/cmake-3.31/Modules/FindXercesC.cmake
+D:/Program Files/CMake/share/cmake-3.31/Modules/GenerateExportHeader.cmake
+D:/Program Files/CMake/share/cmake-3.31/Modules/exportheader.cmake.in
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/libE57Format/CMakeLists.txt
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/libE57Format/cmake/Modules/ClangFormat.cmake
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/libE57Format/cmake/Modules/E57ExportHeader.cmake
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/libE57Format/cmake/Modules/Tags.cmake

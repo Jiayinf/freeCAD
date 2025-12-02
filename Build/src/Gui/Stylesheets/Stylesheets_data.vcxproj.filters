@@ -1,0 +1,971 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\FreeCAD Dark.qss" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\FreeCAD Light.qss" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\Hmovetoolbar_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\Hmovetoolbar_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\Hsepartoolbar_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\Hsepartoolbar_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\Vmovetoolbar_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\Vmovetoolbar_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\Vsepartoolbar_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\Vsepartoolbar_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\background_freecad.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\background_freecad_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\background_freecad_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_end_closed_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_end_closed_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_end_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_end_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_end_open_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_end_open_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_more_closed_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_more_closed_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_more_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_more_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_more_open_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_more_open_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_vline_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\branch_vline_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\check_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\check_dark_disabled.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\check_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\check_light_disabled.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_checked_disabled.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_dark_hover.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_indeterminate_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_indeterminate_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_light_hover.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_unchecked_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_unchecked_disabled.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_unchecked_hover_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_unchecked_hover_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\checkbox_unchecked_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\close_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\close_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\close_red.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\down_arrow_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\down_arrow_darker.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\down_arrow_disabled_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\down_arrow_disabled_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\down_arrow_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\down_arrow_lighter.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\left_arrow_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\left_arrow_darker.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\left_arrow_disabled_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\left_arrow_disabled_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\left_arrow_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\left_arrow_lighter.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\more_arrow_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\more_arrow_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\more_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\more_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\radiobutton_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\radiobutton_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\right_arrow_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\right_arrow_darker.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\right_arrow_disabled_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\right_arrow_disabled_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\right_arrow_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\right_arrow_lighter.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\sizegrip_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\sizegrip_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\splitter_horizontal_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\splitter_horizontal_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\splitter_vertical_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\splitter_vertical_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\transparent.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\undock_blue.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\undock_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\undock_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\up-down_arrow_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\up-down_arrow_darker.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\up-down_arrow_disabled_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\up-down_arrow_disabled_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\up-down_arrow_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\up-down_arrow_lighter.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\up_arrow_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\up_arrow_darker.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\up_arrow_disabled_dark.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\up_arrow_disabled_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\up_arrow_light.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_dark-light\up_arrow_lighter.svg">
+      <Filter>Images_dark-light</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-double-leftright-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-double-leftright-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-double-leftright-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-double-leftright-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-double-leftright-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-double-updown-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-double-updown-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-double-updown-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-double-updown-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-double-updown-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-down-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-down-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-down-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-down-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-down-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-left-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-left-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-left-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-left-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-left-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-leftdown-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-leftdown-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-leftdown-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-leftdown-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-leftdown-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-right-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-right-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-right-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-right-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-right-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-rightdown-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-rightdown-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-rightdown-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-rightdown-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-rightdown-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-up-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-up-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-up-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-up-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\arrow-up-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\autohide-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\autohide-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\autohide-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\autohide-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\autohide-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\background_freecad.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\background_freecad_dark.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\background_freecad_light.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\check-mark-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\check-mark-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\check-mark-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\check-mark-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\check-mark-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\checkbox-checked-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\checkbox-checked-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\checkbox-checked-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\checkbox-checked-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\checkbox-checked-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\checkbox-empty-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\checkbox-empty-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\checkbox-empty-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\checkbox-empty-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\checkbox-empty-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\checkbox-indeterminate-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\checkbox-indeterminate-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\checkbox-indeterminate-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\checkbox-indeterminate-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\checkbox-indeterminate-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\close-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\close-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\close-darkerred.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\close-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\close-darkred.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\close-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\close-lightred.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\close-red.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\close-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\edithide-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\edithide-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\edithide-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\edithide-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\edithide-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\editshow-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\editshow-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\editshow-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\editshow-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\editshow-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\float-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\float-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\float-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\float-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\float-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\hmovetoolbar-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\hmovetoolbar-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\hmovetoolbar-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\hmovetoolbar-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\hmovetoolbar-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\hsepartoolbar-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\hsepartoolbar-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\hsepartoolbar-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\hsepartoolbar-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\hsepartoolbar-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\indeterminate-mark-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\indeterminate-mark-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\indeterminate-mark-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\indeterminate-mark-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\indeterminate-mark-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\mode-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\mode-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\mode-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\mode-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\mode-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\more-black-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\more-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\more-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\more-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\more-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\overlay-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\overlay-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\overlay-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\overlay-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\overlay_lighter.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_fold_black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_fold_blue-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_fold_blue-dark.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_fold_blue-light.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_fold_darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_fold_lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_fold_white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_foldover_blue-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_foldover_blue-dark.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_foldover_blue-light.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_unfold_black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_unfold_blue-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_unfold_blue-dark.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_unfold_blue-light.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_unfold_darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_unfold_lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_unfold_white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_unfoldover_blue-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_unfoldover_blue-dark.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\qsint_header_unfoldover_blue-light.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\radio-checked-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\radio-checked-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\radio-checked-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\radio-checked-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\radio-checked-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\radio-unchecked-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\radio-unchecked-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\radio-unchecked-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\radio-unchecked-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\radio-unchecked-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\sizegrip-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\sizegrip-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\sizegrip-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\sizegrip-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\sizegrip-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\splitter_horizontal-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\splitter_horizontal-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\splitter_horizontal-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\splitter_horizontal-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\splitter_horizontal-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\splitter_vertical-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\splitter_vertical-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\splitter_vertical-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\splitter_vertical-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\splitter_vertical-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\taskshow-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\taskshow-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\taskshow-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\taskshow-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\taskshow-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\transparent-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\transparent-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\transparent-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\transparent-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\transparent-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\transparent.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\undock-black-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\undock-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\undock-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\undock-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\undock-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\vmovetoolbar-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\vmovetoolbar-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\vmovetoolbar-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\vmovetoolbar-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\vmovetoolbar-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\vsepartoolbar-black.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\vsepartoolbar-blue.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\vsepartoolbar-darkgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\vsepartoolbar-lightgray.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\images_classic\vsepartoolbar-white.png">
+      <Filter>images_classic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\Dark Theme + Dark Background.qss" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\Dark Theme + Light Background.qss" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\Light Theme + Dark Background.qss" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\Light Theme + Light Background.qss" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\autohide.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\autohide_light.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\autohide_lighter.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\autohide_lightgray.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\close.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\close_light.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\close_lighter.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\close_red.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\edithide.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\edithide_light.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\edithide_lighter.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\edithide_lightgray.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\editshow.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\editshow_light.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\editshow_lighter.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\editshow_lightgray.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\float.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\float_light.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\float_lighter.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\mode.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\mode_light.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\mode_lighter.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\mode_lightgray.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\overlay.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\overlay_light.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\overlay_lighter.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\taskshow.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\taskshow_light.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\taskshow_lighter.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\taskshow_lightgray.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\transparent.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\transparent_light.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\overlay\icons\transparent_lighter.svg">
+      <Filter>overlay_icons</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Stylesheets\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Images_dark-light">
+      <UniqueIdentifier>{7EB0F76B-F09D-37D8-924B-704FB3E77A62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images_classic">
+      <UniqueIdentifier>{F29733E3-F81C-3F25-9FDE-F7BECAC72D24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overlay_icons">
+      <UniqueIdentifier>{B597F1C1-2350-3617-A36D-A190FE2D2D20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

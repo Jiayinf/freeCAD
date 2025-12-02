@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{26799DE0-1F57-318C-960D-1EC08C22797D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>PartDesign_tests_run</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\tests\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PartDesign_tests_run.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PartDesign_tests_run</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\tests\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PartDesign_tests_run.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PartDesign_tests_run</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\tests\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PartDesign_tests_run.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PartDesign_tests_run</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\tests\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PartDesign_tests_run.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PartDesign_tests_run</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\include_Debug;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googlemock\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/tests/lib/googletest/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/eigen3" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/inc" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/bin/Include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/tests/lib/googletest" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/boost-1_85" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/mkspecs/win32-msvc" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtXml" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtConcurrent" /Zm150 /bigobj -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;FC_DEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;COIN_DLL;_USE_MATH_DEFINES;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_DYN_LINK;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_DYN_LINK;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_DYN_LINK;BOOST_REGEX_NO_LIB;BOOST_REGEX_DYN_LINK;BOOST_SYSTEM_NO_LIB;BOOST_SYSTEM_DYN_LINK;BOOST_THREAD_NO_LIB;BOOST_THREAD_DYN_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_DYN_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_DYN_LINK;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;FMT_SHARED;QT_XML_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;FC_DEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;COIN_DLL;_USE_MATH_DEFINES;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_DYN_LINK;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_DYN_LINK;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_DYN_LINK;BOOST_REGEX_NO_LIB;BOOST_REGEX_DYN_LINK;BOOST_SYSTEM_NO_LIB;BOOST_SYSTEM_DYN_LINK;BOOST_THREAD_NO_LIB;BOOST_THREAD_DYN_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_DYN_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_DYN_LINK;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;FMT_SHARED;QT_XML_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\include_Debug;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googlemock\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\eigen3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\mkspecs\win32-msvc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtXml;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\include_Debug;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googlemock\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\eigen3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\mkspecs\win32-msvc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtXml;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target PartDesign_tests_run</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\tests
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/tests/CMakeFiles/PartDesign_tests_run_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\lib\Debug\gtest_main.lib;oldnames.lib;msvcrtd.lib;msvcprtd.lib;vcruntimed.lib;ucrtd.lib;concrtd.lib;..\src\Mod\PartDesign\App\Debug\_PartDesign_d.lib;..\lib\Debug\gtest.lib;..\src\Mod\Part\App\Debug\Part_d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKOffset.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFillet.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFeat.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTEP.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEIGES.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXSBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBool.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEGLTF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKRWMesh.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTL.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDE.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKVCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBO.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKPrim.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKLCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCDF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKV3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMesh.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKShHealing.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKHLR.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKTopAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBRep.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG2d.lib;opengl32.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKService.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMath.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKernel.lib;gdi32.lib;wsock32.lib;psapi.lib;advapi32.lib;user32.lib;windowscodecs.lib;freetype.lib;winmm.lib;..\src\Mod\Material\App\Debug\Materials_d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\Qt6Concurrentd.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\yaml-cpp.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\freetype.lib;..\src\App\Debug\FreeCADApp_d.lib;..\src\Base\Debug\FreeCADBase_d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\xerces-c_3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\zlib.lib;MSVCRTD.lib;MSVCPRTD.lib;Rpcrt4.lib;version.lib;vcruntimed.lib;ucrtd.lib;concrtd.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\libs\python312.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_filesystem-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_atomic-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_program_options-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_regex-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_system-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_thread-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_chrono-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_date_time-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\fmt.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\Qt6Xmld.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\Qt6Cored.lib;mpr.lib;userenv.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib;D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/FreeCAD-1.0.2-ori/Build/tests/Debug/PartDesign_tests_run.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/FreeCAD-1.0.2-ori/Build/tests/Debug/PartDesign_tests_run.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\include_Release;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googlemock\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/tests/lib/googletest/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/eigen3" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/inc" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/bin/Include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/tests/lib/googletest" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/boost-1_85" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/mkspecs/win32-msvc" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtXml" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtConcurrent" /Zm150 /bigobj -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;HAVE_OPENGL_EXT;VTK_OPENGL2_BACKEND;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;COIN_DLL;_USE_MATH_DEFINES;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_DYN_LINK;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_DYN_LINK;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_DYN_LINK;BOOST_REGEX_NO_LIB;BOOST_REGEX_DYN_LINK;BOOST_SYSTEM_NO_LIB;BOOST_SYSTEM_DYN_LINK;BOOST_THREAD_NO_LIB;BOOST_THREAD_DYN_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_DYN_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_DYN_LINK;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;FMT_SHARED;QT_XML_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;HAVE_OPENGL_EXT;VTK_OPENGL2_BACKEND;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;COIN_DLL;_USE_MATH_DEFINES;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_DYN_LINK;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_DYN_LINK;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_DYN_LINK;BOOST_REGEX_NO_LIB;BOOST_REGEX_DYN_LINK;BOOST_SYSTEM_NO_LIB;BOOST_SYSTEM_DYN_LINK;BOOST_THREAD_NO_LIB;BOOST_THREAD_DYN_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_DYN_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_DYN_LINK;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;FMT_SHARED;QT_XML_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\include_Release;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googlemock\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\eigen3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\mkspecs\win32-msvc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtXml;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\include_Release;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googlemock\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\eigen3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\mkspecs\win32-msvc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtXml;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target PartDesign_tests_run</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\tests
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/tests/CMakeFiles/PartDesign_tests_run_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\lib\Release\gtest_main.lib;oldnames.lib;msvcrt.lib;msvcprt.lib;vcruntime.lib;ucrt.lib;concrt.lib;..\src\Mod\PartDesign\App\Release\_PartDesign.lib;..\lib\Release\gtest.lib;..\src\Mod\Part\App\Release\Part.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKOffset.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFillet.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFeat.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTEP.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEIGES.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXSBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBool.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEGLTF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKRWMesh.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTL.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDE.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKVCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBO.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKPrim.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKLCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCDF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKV3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMesh.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKShHealing.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKHLR.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKTopAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBRep.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG2d.lib;opengl32.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKService.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMath.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKernel.lib;gdi32.lib;wsock32.lib;psapi.lib;advapi32.lib;user32.lib;windowscodecs.lib;freetype.lib;winmm.lib;..\src\Mod\Material\App\Release\Materials.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\Qt6Concurrent.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\yaml-cpp.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\freetype.lib;..\src\App\Release\FreeCADApp.lib;..\src\Base\Release\FreeCADBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\xerces-c_3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\zlib.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;version.lib;vcruntime.lib;ucrt.lib;concrt.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\libs\python312.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_filesystem-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_atomic-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_program_options-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_regex-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_system-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_thread-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_chrono-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_date_time-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\fmt.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\Qt6Xml.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\Qt6Core.lib;mpr.lib;userenv.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib;D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/FreeCAD-1.0.2-ori/Build/tests/Release/PartDesign_tests_run.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/FreeCAD-1.0.2-ori/Build/tests/Release/PartDesign_tests_run.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\include_MinSizeRel;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googlemock\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/tests/lib/googletest/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/eigen3" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/inc" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/bin/Include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/tests/lib/googletest" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/boost-1_85" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/mkspecs/win32-msvc" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtXml" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtConcurrent" /Zm150 /bigobj -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;COIN_DLL;_USE_MATH_DEFINES;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_DYN_LINK;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_DYN_LINK;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_DYN_LINK;BOOST_REGEX_NO_LIB;BOOST_REGEX_DYN_LINK;BOOST_SYSTEM_NO_LIB;BOOST_SYSTEM_DYN_LINK;BOOST_THREAD_NO_LIB;BOOST_THREAD_DYN_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_DYN_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_DYN_LINK;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;FMT_SHARED;QT_XML_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;COIN_DLL;_USE_MATH_DEFINES;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_DYN_LINK;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_DYN_LINK;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_DYN_LINK;BOOST_REGEX_NO_LIB;BOOST_REGEX_DYN_LINK;BOOST_SYSTEM_NO_LIB;BOOST_SYSTEM_DYN_LINK;BOOST_THREAD_NO_LIB;BOOST_THREAD_DYN_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_DYN_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_DYN_LINK;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;FMT_SHARED;QT_XML_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\include_MinSizeRel;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googlemock\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\eigen3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\mkspecs\win32-msvc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtXml;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\include_MinSizeRel;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googlemock\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\eigen3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\mkspecs\win32-msvc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtXml;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target PartDesign_tests_run</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\tests
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/tests/CMakeFiles/PartDesign_tests_run_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\lib\MinSizeRel\gtest_main.lib;oldnames.lib;msvcrt.lib;msvcprt.lib;vcruntime.lib;ucrt.lib;concrt.lib;..\src\Mod\PartDesign\App\MinSizeRel\_PartDesign.lib;..\lib\MinSizeRel\gtest.lib;..\src\Mod\Part\App\MinSizeRel\Part.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKOffset.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFillet.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFeat.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTEP.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEIGES.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXSBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBool.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEGLTF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKRWMesh.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTL.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDE.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKVCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBO.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKPrim.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKLCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCDF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKV3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMesh.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKShHealing.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKHLR.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKTopAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBRep.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG2d.lib;opengl32.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKService.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMath.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKernel.lib;gdi32.lib;wsock32.lib;psapi.lib;advapi32.lib;user32.lib;windowscodecs.lib;freetype.lib;winmm.lib;..\src\Mod\Material\App\MinSizeRel\Materials.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\Qt6Concurrent.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\yaml-cpp.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\freetype.lib;..\src\App\MinSizeRel\FreeCADApp.lib;..\src\Base\MinSizeRel\FreeCADBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\xerces-c_3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\zlib.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;version.lib;vcruntime.lib;ucrt.lib;concrt.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\libs\python312.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_filesystem-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_atomic-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_program_options-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_regex-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_system-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_thread-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_chrono-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_date_time-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\fmt.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\Qt6Xml.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\Qt6Core.lib;mpr.lib;userenv.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib;D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/FreeCAD-1.0.2-ori/Build/tests/MinSizeRel/PartDesign_tests_run.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/FreeCAD-1.0.2-ori/Build/tests/MinSizeRel/PartDesign_tests_run.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\include_RelWithDebInfo;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googlemock\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/tests/lib/googletest/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/eigen3" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/inc" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/bin/Include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/tests/lib/googletest" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/boost-1_85" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/mkspecs/win32-msvc" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtXml" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtConcurrent" /Zm150 /bigobj -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;COIN_DLL;_USE_MATH_DEFINES;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_DYN_LINK;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_DYN_LINK;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_DYN_LINK;BOOST_REGEX_NO_LIB;BOOST_REGEX_DYN_LINK;BOOST_SYSTEM_NO_LIB;BOOST_SYSTEM_DYN_LINK;BOOST_THREAD_NO_LIB;BOOST_THREAD_DYN_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_DYN_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_DYN_LINK;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;FMT_SHARED;QT_XML_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;COIN_DLL;_USE_MATH_DEFINES;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_DYN_LINK;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_DYN_LINK;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_PROGRAM_OPTIONS_DYN_LINK;BOOST_REGEX_NO_LIB;BOOST_REGEX_DYN_LINK;BOOST_SYSTEM_NO_LIB;BOOST_SYSTEM_DYN_LINK;BOOST_THREAD_NO_LIB;BOOST_THREAD_DYN_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_DYN_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_DYN_LINK;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;FMT_SHARED;QT_XML_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\include_RelWithDebInfo;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googlemock\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\eigen3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\mkspecs\win32-msvc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtXml;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\include_RelWithDebInfo;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googlemock\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\eigen3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\Include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\lib\googletest;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtCore;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\mkspecs\win32-msvc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtXml;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target PartDesign_tests_run</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\tests
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/tests/CMakeFiles/PartDesign_tests_run_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\lib\RelWithDebInfo\gtest_main.lib;oldnames.lib;msvcrt.lib;msvcprt.lib;vcruntime.lib;ucrt.lib;concrt.lib;..\src\Mod\PartDesign\App\RelWithDebInfo\_PartDesign.lib;..\lib\RelWithDebInfo\gtest.lib;..\src\Mod\Part\App\RelWithDebInfo\Part.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKOffset.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFillet.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFeat.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTEP.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEIGES.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXSBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBool.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEGLTF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKRWMesh.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTL.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDE.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKVCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBO.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKPrim.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKLCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCDF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKV3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMesh.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKShHealing.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKHLR.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKTopAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBRep.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG2d.lib;opengl32.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKService.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMath.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKernel.lib;gdi32.lib;wsock32.lib;psapi.lib;advapi32.lib;user32.lib;windowscodecs.lib;freetype.lib;winmm.lib;..\src\Mod\Material\App\RelWithDebInfo\Materials.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\Qt6Concurrent.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\yaml-cpp.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\freetype.lib;..\src\App\RelWithDebInfo\FreeCADApp.lib;..\src\Base\RelWithDebInfo\FreeCADBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\xerces-c_3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\zlib.lib;MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;version.lib;vcruntime.lib;ucrt.lib;concrt.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\bin\libs\python312.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_filesystem-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_atomic-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_program_options-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_regex-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_system-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_thread-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_chrono-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\boost_date_time-vc143-mt-x64-1_85.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\fmt.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\Qt6Xml.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\Qt6Core.lib;mpr.lib;userenv.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib;D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/FreeCAD-1.0.2-ori/Build/tests/RelWithDebInfo/PartDesign_tests_run.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/FreeCAD-1.0.2-ori/Build/tests/RelWithDebInfo/PartDesign_tests_run.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.31\Modules\GoogleTest.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.31\Modules\GoogleTest.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.31\Modules\GoogleTest.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.31\Modules\GoogleTest.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Mod\PartDesign\App\DatumPlane.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\tests\src\Mod\PartDesign\App\ShapeBinder.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\tests\PartDesign_tests_run_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\ZERO_CHECK.vcxproj">
+      <Project>{FC9EC38A-2C8D-31AA-8223-50EE9BFA1B59}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\App\FreeCADApp.vcxproj">
+      <Project>{E23D96C0-8DCF-3E39-B369-52641F6F10A6}</Project>
+      <Name>FreeCADApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Base\FreeCADBase.vcxproj">
+      <Project>{81AB12DB-6BED-37D0-B181-61A8A968CAAC}</Project>
+      <Name>FreeCADBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\App\Materials.vcxproj">
+      <Project>{CAA43877-578C-3EFE-99D5-6A431BC6A799}</Project>
+      <Name>Materials</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Part\App\Part.vcxproj">
+      <Project>{459B0E54-CA29-3E2D-A28E-B24B08A45A47}</Project>
+      <Name>Part</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\PartDesign\App\PartDesign.vcxproj">
+      <Project>{93C6F5AE-F74A-3CE7-B0D1-D135A4C82E12}</Project>
+      <Name>PartDesign</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\tests\lib\googletest\gtest.vcxproj">
+      <Project>{631B0C18-B10B-3418-8CCF-81883514D4C9}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\tests\lib\googletest\gtest_main.vcxproj">
+      <Project>{BA5B8179-72CF-3868-85BF-7D6086C33202}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

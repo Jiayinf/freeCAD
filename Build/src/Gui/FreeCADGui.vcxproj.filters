@@ -1,0 +1,3255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\3Dconnexion\navlib\NavlibCmds.cpp">
+      <Filter>3Dconnexion Navlib</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\3Dconnexion\navlib\NavlibNavigation.cpp">
+      <Filter>3Dconnexion Navlib</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\3Dconnexion\navlib\NavlibPivot.cpp">
+      <Filter>3Dconnexion Navlib</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\3Dconnexion\src\navlib_load.cpp">
+      <Filter>3Dconnexion Navlib</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\3Dconnexion\src\navlib_stub.c">
+      <Filter>3Dconnexion Navlib</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ApplicationPy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\AutoSaver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\BitmapFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DocumentModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DocumentPyImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DocumentObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DocumentObserverPython.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\EditableDatumLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ExpressionBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ExpressionBindingPy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GraphicsViewZoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ExpressionCompleter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\FileHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GuiApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GuiApplicationNativeEventAware.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GuiConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Macro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MergeDocuments.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ModuleIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SpaceballEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePackManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Thumbnail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WaitCursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ManualAlignment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\StartupProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TransactionObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ToolHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\QSint\actionpanel\moc_actionbox.cpp">
+      <Filter>Widget\QSintActionPanel\Mocs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\QSint\actionpanel\moc_actionlabel.cpp">
+      <Filter>Widget\QSintActionPanel\Mocs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\QSint\actionpanel\moc_actiongroup.cpp">
+      <Filter>Widget\QSintActionPanel\Mocs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\QSint\actionpanel\moc_actionpanel.cpp">
+      <Filter>Widget\QSintActionPanel\Mocs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\QSint\actionpanel\moc_taskheader_p.cpp">
+      <Filter>Widget\QSintActionPanel\Mocs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\qrc_resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\qrc_translation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\qrc_FreeCAD_translation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\qrc_schemes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Action.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ActionFunction.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Command.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandDoc.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandFeat.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandMacro.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandStd.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandWindow.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandTest.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandView.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandStructure.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandLink.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandPyImp.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ShortcutManager.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandCompleter.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandActionPy.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Clipping.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DemoMode.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgActivateWindowImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgCreateNewPreferencePackImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgUnitsCalculatorImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgInputDialogImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgMacroExecuteImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgRunExternal.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgEditFileIncludePropertyExternal.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgMacroRecordImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgMaterialPropertiesImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgParameterImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgParameterFind.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgPreferencePackManagementImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgProjectInformationImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgProjectUtility.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgPropertyLink.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgRevertToBackupConfigImp.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgExpressionInput.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskDlgRelocation.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgCheckableMessageBox.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskCSysDragger.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgUndoRedo.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\InputVector.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Placement.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PropertyPage.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SceneInspector.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TextureMapping.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Transform.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DownloadItem.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DownloadManager.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DocumentRecovery.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskElementColors.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgObjectSelection.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgAddProperty.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgAddPropertyVarSet.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\VectorListEditor.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgActionsImp.cpp">
+      <Filter>Dialog\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgCustomizeImp.cpp">
+      <Filter>Dialog\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgKeyboardImp.cpp">
+      <Filter>Dialog\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgToolbarsImp.cpp">
+      <Filter>Dialog\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ListWidgetDragBugFix.cpp">
+      <Filter>Dialog\Customize</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgOnlineHelpImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgPreferencesImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettings3DViewImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsCacheDirectory.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgSettingsColorGradientImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsDocumentImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsEditor.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsGeneral.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgSettingsImageImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsLightSources.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsMacroImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsNavigation.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsNotificationArea.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsPythonConsole.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsReportView.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsSelection.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsUI.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsViewColor.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsWorkbenchesImp.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsAdvanced.cpp">
+      <Filter>Dialog\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ComboView.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DockWindow.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PropertyView.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ReportView.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SelectionView.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ToolBox.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Tree.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TreeView.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DAGView\DAGView.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DAGView\DAGModel.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DAGView\DAGRectItem.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DAGView\DAGModelGraph.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DAGView\DAGFilter.cpp">
+      <Filter>Dock Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CallTips.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\EditorView.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TextDocumentEditorView.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PythonConsole.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PythonConsolePy.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PythonDebugger.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PythonTracing.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PythonEditor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SyntaxHighlighter.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TextEdit.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Assistant.cpp">
+      <Filter>Help</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\NetworkRetriever.cpp">
+      <Filter>Help</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\OnlineDocumentation.cpp">
+      <Filter>Help</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WhatsThis.cpp">
+      <Filter>Help</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Inventor\SoDrawingGrid.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Inventor\SoAutoZoomTranslation.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Inventor\MarkerBitmaps.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Inventor\SmSwitchboard.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Inventor\SoFCTransform.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCBackgroundGradient.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCBoundingBox.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCColorBar.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCColorBarNotifier.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCColorGradient.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCColorLegend.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCDB.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCInteractiveElement.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCOffscreenRenderer.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoQtOffscreenRendererPy.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCSelection.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCUnifiedSelection.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCSelectionContext.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCSelectionAction.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCVectorizeSVGAction.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCVectorizeU3DAction.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\So3DAnnotation.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoAxisCrossKit.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoTextLabel.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoDatumLabel.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoTouchEvents.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoMouseWheelEvent.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCCSysDragger.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ArcEngine.cpp">
+      <Filter>View3D\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Language\Translator.cpp">
+      <Filter>Language</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\propertyeditor\PropertyEditor.cpp">
+      <Filter>Propertyeditor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\propertyeditor\PropertyItem.cpp">
+      <Filter>Propertyeditor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\propertyeditor\PropertyItemDelegate.cpp">
+      <Filter>Propertyeditor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\propertyeditor\PropertyModel.cpp">
+      <Filter>Propertyeditor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskAppearance.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskOrientation.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskImage.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskSelectLinkProperty.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskEditControl.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskView.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskDialog.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskDialogPython.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskWatcher.cpp">
+      <Filter>Task View</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\actionbox.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\actionlabel.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\actiongroup.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\actionpanel.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\actionpanelscheme.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\androidpanelscheme.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\macpanelscheme.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\taskgroup_p.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\taskheader_p.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\winvistapanelscheme.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\winxppanelscheme.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\freecadscheme.cpp">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\ContextMenu.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\DragDropHandler.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\EventFilter.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\FocusHandler.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\ImageReader.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\InputDevice.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\InteractionMode.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\Keyboard.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\KeyboardP.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\Mouse.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\NativeEvent.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\QtCoinCompatibility.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\Quarter.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\QuarterP.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\QuarterWidget.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\QuarterWidgetP.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\SensorManager.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\SignalThread.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\SoQTQuarterAdaptor.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\SpaceNavigatorDevice.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Quarter\moc_SignalThread.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Quarter\moc_InteractionMode.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Quarter\moc_SensorManager.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Quarter\moc_ContextMenu.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Quarter\eventhandlers\moc_FocusHandler.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Quarter\eventhandlers\moc_DragDropHandler.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Quarter\eventhandlers\moc_EventFilter.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Quarter\moc_QuarterWidget.cpp">
+      <Filter>Quarter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Camera.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Flag.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GLBuffer.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GLPainter.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Multisample.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MouseSelection.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\NavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\InventorNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CADNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\RevitNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\BlenderNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MayaGestureNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\OpenCascadeNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\OpenSCADNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TinkerCADNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TouchpadNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GestureNavigationStyle.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SplitView3DInventor.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View3DInventor.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View3DInventorSelection.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View3DInventorViewer.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View3DInventorRiftViewer.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View3DSettings.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CoinRiftWidget.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View3DPy.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View3DViewerPy.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\NaviCube.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\NavigationAnimator.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\NavigationAnimation.cpp">
+      <Filter>View3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProvider.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderExtension.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderExtensionPyImp.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderGroupExtension.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderGeoFeatureGroupExtension.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderOriginGroupExtension.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderSuppressibleExtension.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderAnnotation.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderDocumentObject.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderDocumentObjectGroup.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderDocumentObjectPyImp.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderGeometryObjectPyImp.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderDragger.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderExtern.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderFeature.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderGeometryObject.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderImagePlane.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderInventorObject.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderPyImp.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderFeaturePython.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderVRMLObject.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderBuilder.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderPlacement.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderOriginFeature.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderPlane.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderLine.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderGeoFeatureGroup.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderOriginGroup.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderPart.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderOrigin.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderMaterialObject.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderTextDocument.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderTextureExtension.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderLink.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\LinkViewPyImp.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderLinkPyImp.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderVarSet.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\AxisOriginPyImp.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\AxisOrigin.cpp">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\FileDialog.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MainWindow.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MainWindowPy.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\NotificationBox.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\NotificationArea.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PrefWidgets.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\InputField.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ProgressBar.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ProgressDialog.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QuantitySpinBox.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SpinBox.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Splashscreen.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PythonWrapper.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\UiLoader.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WidgetFactory.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Widgets.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Window.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WorkbenchSelector.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TreeParams.cpp">
+      <Filter>Params</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\OverlayParams.cpp">
+      <Filter>Params</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ParamHandler.cpp">
+      <Filter>Params</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewParams.cpp">
+      <Filter>Params</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MDIView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MDIViewPy.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MDIViewPyWrap.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GraphvizView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ImageView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ActiveObjectList.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DockWindowManager.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\OverlayManager.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\OverlayWidgets.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MenuManager.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PythonWorkbenchPyImp.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ToolBarAreaWidget.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ToolBarManager.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ToolBoxManager.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Workbench.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WorkbenchFactory.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WorkbenchManager.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WorkbenchManipulator.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WorkbenchManipulatorPython.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WorkbenchPyImp.cpp">
+      <Filter>Workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SelectionObjectPyImp.cpp">
+      <Filter>Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SelectionObject.cpp">
+      <Filter>Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Selection.cpp">
+      <Filter>Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SelectionFilter.cpp">
+      <Filter>Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SelectionFilterPy.cpp">
+      <Filter>Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SelectionObserverPython.cpp">
+      <Filter>Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreCompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\3Dconnexion\navlib\NavlibInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\FileHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Namespace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Action.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ActionFunction.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Command.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandT.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ShortcutManager.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandCompleter.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandActionPy.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Clipping.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DemoMode.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgActivateWindowImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgCreateNewPreferencePackImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgUnitsCalculatorImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgInputDialogImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgMacroExecuteImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgRunExternal.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgEditFileIncludePropertyExternal.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgMacroRecordImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgMaterialPropertiesImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgParameterImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgParameterFind.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgPreferencePackManagementImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgProjectInformationImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgProjectUtility.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgPropertyLink.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgRevertToBackupConfigImp.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgCheckableMessageBox.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgExpressionInput.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskDlgRelocation.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskCSysDragger.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgUndoRedo.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\InputVector.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Placement.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PropertyPage.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SceneInspector.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TextureMapping.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Transform.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DownloadItem.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DownloadManager.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DocumentRecovery.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskElementColors.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgObjectSelection.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgAddProperty.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgAddPropertyVarSet.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\VectorListEditor.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgActionsImp.h">
+      <Filter>Dialog\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgCustomizeImp.h">
+      <Filter>Dialog\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgKeyboardImp.h">
+      <Filter>Dialog\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgToolbarsImp.h">
+      <Filter>Dialog\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ListWidgetDragBugFix.h">
+      <Filter>Dialog\Customize</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgOnlineHelpImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgPreferencesImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettings3DViewImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsCacheDirectory.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgSettingsColorGradientImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsDocumentImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsEditor.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsGeneral.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgSettingsImageImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsLightSources.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsMacroImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsNavigation.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsNotificationArea.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsPythonConsole.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsReportView.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsSelection.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsUI.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsViewColor.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsWorkbenchesImp.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsAdvanced.h">
+      <Filter>Dialog\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ComboView.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DockWindow.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PropertyView.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ReportView.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SelectionView.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ToolBox.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Tree.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TreeView.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DAGView\DAGView.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DAGView\DAGModel.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DAGView\DAGRectItem.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DAGView\DAGModelGraph.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DAGView\DAGFilter.h">
+      <Filter>Dock Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CallTips.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\EditorView.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TextDocumentEditorView.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PythonConsole.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PythonConsolePy.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PythonDebugger.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PythonTracing.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PythonEditor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SyntaxHighlighter.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TextEdit.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Assistant.h">
+      <Filter>Help</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\NetworkRetriever.h">
+      <Filter>Help</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\OnlineDocumentation.h">
+      <Filter>Help</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WhatsThis.h">
+      <Filter>Help</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Inventor\SoDrawingGrid.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Inventor\SoAutoZoomTranslation.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Inventor\MarkerBitmaps.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Inventor\SmSwitchboard.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Inventor\SoFCTransform.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCBackgroundGradient.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCBoundingBox.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCColorBar.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCColorBarNotifier.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCColorGradient.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCColorLegend.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCDB.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCInteractiveElement.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCOffscreenRenderer.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoQtOffscreenRendererPy.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCSelection.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCUnifiedSelection.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCSelectionContext.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCSelectionAction.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCVectorizeSVGAction.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCVectorizeU3DAction.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoAxisCrossKit.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoTextLabel.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoDatumLabel.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoTouchEvents.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoMouseWheelEvent.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SoFCCSysDragger.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ArcEngine.h">
+      <Filter>View3D\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Language\Translator.h">
+      <Filter>Language</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\propertyeditor\PropertyEditor.h">
+      <Filter>Propertyeditor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\propertyeditor\PropertyItem.h">
+      <Filter>Propertyeditor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\propertyeditor\PropertyItemDelegate.h">
+      <Filter>Propertyeditor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\propertyeditor\PropertyModel.h">
+      <Filter>Propertyeditor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskAppearance.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskOrientation.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskImage.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskSelectLinkProperty.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskEditControl.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskView.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskDialog.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskDialogPython.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskWatcher.h">
+      <Filter>Task View</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\actionbox.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\actionlabel.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\actiongroup.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\actionpanel.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\actionpanelscheme.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\androidpanelscheme.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\macpanelscheme.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\taskgroup_p.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\taskheader_p.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\winvistapanelscheme.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\winxppanelscheme.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\freecadscheme.h">
+      <Filter>Widget\QSintActionPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\Basic.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\ContextMenu.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\ImageReader.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\InteractionMode.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\KeyboardP.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\NativeEvent.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\QtCoinCompatibility.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\Quarter.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\QuarterP.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\QuarterWidget.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\QuarterWidgetP.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\SensorManager.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\SignalThread.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\SoQTQuarterAdaptor.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\devices\InputDevice.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\devices\Keyboard.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\devices\Mouse.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\devices\SpaceNavigatorDevice.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\eventhandlers\DragDropHandler.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\eventhandlers\EventFilter.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Quarter\eventhandlers\FocusHandler.h">
+      <Filter>Quarter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Camera.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Flag.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GLBuffer.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GLPainter.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Multisample.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MouseSelection.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\NavigationStyle.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GestureNavigationStyle.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SplitView3DInventor.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View3DInventor.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View3DInventorSelection.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View3DInventorViewer.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View3DPy.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View3DInventorRiftViewer.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View3DSettings.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CoinRiftWidget.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\View3DViewerPy.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\NaviCube.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\NavigationAnimator.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\NavigationAnimation.h">
+      <Filter>View3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProvider.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderExtension.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderGroupExtension.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderGeoFeatureGroupExtension.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderOriginGroupExtension.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderAnnotation.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderDocumentObject.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderDocumentObjectGroup.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderDragger.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderExtern.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderFeature.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderGeometryObject.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderImagePlane.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderInventorObject.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderFeaturePython.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderVRMLObject.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderBuilder.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderPlacement.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderOriginFeature.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderPlane.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderLine.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderGeoFeatureGroup.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderOriginGroup.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderPart.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderOrigin.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderMaterialObject.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderTextDocument.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderTextureExtension.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderLink.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderVarSet.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\AxisOrigin.h">
+      <Filter>View3D\Viewprovider</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\FileDialog.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MainWindow.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MainWindowPy.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\NotificationBox.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\NotificationArea.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PrefWidgets.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\InputField.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ProgressBar.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ProgressDialog.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QuantitySpinBox.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QuantitySpinBox_p.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SpinBox.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Splashscreen.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PythonWrapper.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\UiLoader.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WidgetFactory.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Widgets.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Window.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WorkbenchSelector.h">
+      <Filter>Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TreeParams.h">
+      <Filter>Params</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\OverlayParams.h">
+      <Filter>Params</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewParams.h">
+      <Filter>Params</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MDIView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MDIViewPy.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MDIViewPyWrap.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GraphvizView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ImageView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ActiveObjectList.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DockWindowManager.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\OverlayManager.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\OverlayWidgets.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MenuManager.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ToolBarAreaWidget.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ToolBarManager.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ToolBoxManager.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Workbench.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WorkbenchFactory.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WorkbenchManager.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WorkbenchManipulator.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WorkbenchManipulatorPython.h">
+      <Filter>Workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SelectionObject.h">
+      <Filter>Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Selection.h">
+      <Filter>Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SelectionFilter.h">
+      <Filter>Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SelectionFilterPy.h">
+      <Filter>Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SelectionObserverPython.h">
+      <Filter>Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\AutoSaver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\BitmapFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Document.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DocumentModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DocumentObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DocumentObserverPython.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\EditableDatumLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ExpressionBinding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ExpressionBindingPy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ExpressionCompleter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GraphicsViewZoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GuiApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GuiApplicationNativeEventAware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\3Dconnexion\GuiAbstractNativeEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\GuiConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\InventorAll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Macro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MergeDocuments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MetaTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ModuleIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Notifications.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreCompiled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QtAll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SpaceballEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePackManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Thumbnail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WaitCursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ManualAlignment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\StartupProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TransactionObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ToolHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_AboutApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_Clipping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DemoMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgActivateWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgUnitsCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgAuthorization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgInputDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgAddProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgLocationAngle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgLocationPos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgMacroExecute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgRunExternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgMacroRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgMaterialProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgParameterFind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgPreferencePackManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgProjectInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgProjectUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgPropertyLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgRevertToBackupConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgCheckableMessageBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgTreeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgExpressionInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgCreateNewPreferencePack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DownloadManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DownloadItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DocumentRecovery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_MouseButtons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_InputVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_Placement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_SceneInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_TextureMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_TaskElementColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgObjectSelection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_VectorListEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgActions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgChooseIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgKeyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgToolbars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgOnlineHelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgPreferences.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\PreferencePages\ui_DlgSettings3DView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\PreferencePages\ui_DlgSettingsCacheDirectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgSettingsColorGradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\PreferencePages\ui_DlgSettingsDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\PreferencePages\ui_DlgSettingsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\PreferencePages\ui_DlgSettingsGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_DlgSettingsImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\PreferencePages\ui_DlgSettingsLightSources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\PreferencePages\ui_DlgSettingsMacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\PreferencePages\ui_DlgSettingsNavigation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\PreferencePages\ui_DlgSettingsNotificationArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\PreferencePages\ui_DlgSettingsPythonConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\PreferencePages\ui_DlgSettingsReportView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\PreferencePages\ui_DlgSettingsSelection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\PreferencePages\ui_DlgSettingsUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\PreferencePages\ui_DlgSettingsViewColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\PreferencePages\ui_DlgSettingsWorkbenches.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\TaskView\ui_TaskAppearance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\TaskView\ui_TaskOrientation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\TaskView\ui_TaskImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\TaskView\ui_TaskSelectLinkProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\TaskView\ui_TaskEditControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Debug\ui_RemoteDebugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Build\Ext\freecad\gui\ui_RemoteDebugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_AboutApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_Clipping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DemoMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgActivateWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgUnitsCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgAuthorization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgInputDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgAddProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgLocationAngle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgLocationPos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgMacroExecute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgRunExternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgMacroRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgMaterialProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgParameterFind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgPreferencePackManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgProjectInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgProjectUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgPropertyLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgRevertToBackupConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgCheckableMessageBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgTreeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgExpressionInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgCreateNewPreferencePack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DownloadManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DownloadItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DocumentRecovery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_MouseButtons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_InputVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_Placement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_SceneInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_TextureMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_TaskElementColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgObjectSelection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_VectorListEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgActions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgChooseIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgKeyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgToolbars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgOnlineHelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgPreferences.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\PreferencePages\ui_DlgSettings3DView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\PreferencePages\ui_DlgSettingsCacheDirectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgSettingsColorGradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\PreferencePages\ui_DlgSettingsDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\PreferencePages\ui_DlgSettingsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\PreferencePages\ui_DlgSettingsGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_DlgSettingsImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\PreferencePages\ui_DlgSettingsLightSources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\PreferencePages\ui_DlgSettingsMacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\PreferencePages\ui_DlgSettingsNavigation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\PreferencePages\ui_DlgSettingsNotificationArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\PreferencePages\ui_DlgSettingsPythonConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\PreferencePages\ui_DlgSettingsReportView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\PreferencePages\ui_DlgSettingsSelection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\PreferencePages\ui_DlgSettingsUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\PreferencePages\ui_DlgSettingsViewColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\PreferencePages\ui_DlgSettingsWorkbenches.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\TaskView\ui_TaskAppearance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\TaskView\ui_TaskOrientation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\TaskView\ui_TaskImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\TaskView\ui_TaskSelectLinkProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\TaskView\ui_TaskEditControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_Release\ui_RemoteDebugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_AboutApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_Clipping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DemoMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgActivateWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgUnitsCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgAuthorization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgInputDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgAddProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgLocationAngle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgLocationPos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgMacroExecute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgRunExternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgMacroRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgMaterialProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgParameterFind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgPreferencePackManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgProjectInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgProjectUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgPropertyLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgRevertToBackupConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgCheckableMessageBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgTreeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgExpressionInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgCreateNewPreferencePack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DownloadManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DownloadItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DocumentRecovery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_MouseButtons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_InputVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_Placement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_SceneInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_TextureMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_TaskElementColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgObjectSelection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_VectorListEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgActions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgChooseIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgKeyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgToolbars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgOnlineHelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgPreferences.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\PreferencePages\ui_DlgSettings3DView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\PreferencePages\ui_DlgSettingsCacheDirectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgSettingsColorGradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\PreferencePages\ui_DlgSettingsDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\PreferencePages\ui_DlgSettingsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\PreferencePages\ui_DlgSettingsGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_DlgSettingsImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\PreferencePages\ui_DlgSettingsLightSources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\PreferencePages\ui_DlgSettingsMacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\PreferencePages\ui_DlgSettingsNavigation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\PreferencePages\ui_DlgSettingsNotificationArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\PreferencePages\ui_DlgSettingsPythonConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\PreferencePages\ui_DlgSettingsReportView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\PreferencePages\ui_DlgSettingsSelection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\PreferencePages\ui_DlgSettingsUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\PreferencePages\ui_DlgSettingsViewColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\PreferencePages\ui_DlgSettingsWorkbenches.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\TaskView\ui_TaskAppearance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\TaskView\ui_TaskOrientation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\TaskView\ui_TaskImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\TaskView\ui_TaskSelectLinkProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\TaskView\ui_TaskEditControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_MinSizeRel\ui_RemoteDebugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_AboutApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_Clipping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DemoMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgActivateWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgUnitsCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgAuthorization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgInputDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgAddProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgLocationAngle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgLocationPos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgMacroExecute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgRunExternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgMacroRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgMaterialProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgParameterFind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgPreferencePackManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgProjectInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgProjectUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgPropertyLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgRevertToBackupConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgCheckableMessageBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgTreeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgExpressionInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgCreateNewPreferencePack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DownloadManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DownloadItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DocumentRecovery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_MouseButtons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_InputVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_Placement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_SceneInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_TextureMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_TaskElementColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgObjectSelection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_VectorListEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgActions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgChooseIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgKeyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgToolbars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgOnlineHelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgPreferences.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\PreferencePages\ui_DlgSettings3DView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\PreferencePages\ui_DlgSettingsCacheDirectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgSettingsColorGradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\PreferencePages\ui_DlgSettingsDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\PreferencePages\ui_DlgSettingsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\PreferencePages\ui_DlgSettingsGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_DlgSettingsImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\PreferencePages\ui_DlgSettingsLightSources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\PreferencePages\ui_DlgSettingsMacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\PreferencePages\ui_DlgSettingsNavigation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\PreferencePages\ui_DlgSettingsNotificationArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\PreferencePages\ui_DlgSettingsPythonConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\PreferencePages\ui_DlgSettingsReportView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\PreferencePages\ui_DlgSettingsSelection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\PreferencePages\ui_DlgSettingsUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\PreferencePages\ui_DlgSettingsViewColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\PreferencePages\ui_DlgSettingsWorkbenches.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\TaskView\ui_TaskAppearance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\TaskView\ui_TaskOrientation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\TaskView\ui_TaskImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\TaskView\ui_TaskSelectLinkProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\TaskView\ui_TaskEditControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\include_RelWithDebInfo\ui_RemoteDebugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderDocumentObjectPy.xml" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderGeometryObjectPy.xml" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderPy.xml" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderExtensionPy.xml" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PythonWorkbenchPy.xml" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\WorkbenchPy.xml" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SelectionObjectPy.xml" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DocumentPy.xml" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\LinkViewPy.xml" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\ViewProviderLinkPy.xml" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\AxisOriginPy.xml" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CommandPy.xml" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\f7c6e86c9d4856ec0179e5f364d7961f\moc_actionbox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\f7c6e86c9d4856ec0179e5f364d7961f\moc_actionlabel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\f7c6e86c9d4856ec0179e5f364d7961f\moc_actiongroup.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\f7c6e86c9d4856ec0179e5f364d7961f\moc_actionpanel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\f7c6e86c9d4856ec0179e5f364d7961f\moc_taskheader_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Icons\resource.qrc" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Language\translation.qrc" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_af.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_ar.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_be.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_bg.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_ca.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_cs.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_da.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_de.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_el.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_es-AR.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_es-ES.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_eu.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_fi.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_fil.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_fr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_gl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_hr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_hu.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_id.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_it.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_ja.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_ka.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_kab.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_ko.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_lt.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_nl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_no.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_pl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_pt-BR.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_pt-PT.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_ro.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_ru.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_sk.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_sl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_sr-CS.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_sr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_sv-SE.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_tr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_uk.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_val-ES.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_vi.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_zh-CN.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\6e8e8c135e7548919e2650705f35b98e\FreeCAD_zh-TW.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\Language\FreeCAD_translation.qrc" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\QSint\actionpanel\schemes.qrc" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\f8c5ca5ebd5378ccfe26326ee1765f0a\moc_SignalThread.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\f8c5ca5ebd5378ccfe26326ee1765f0a\moc_InteractionMode.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\f8c5ca5ebd5378ccfe26326ee1765f0a\moc_SensorManager.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\f8c5ca5ebd5378ccfe26326ee1765f0a\moc_ContextMenu.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\7d8498a3dbfb1047e8428eb49883bcaf\moc_FocusHandler.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\7d8498a3dbfb1047e8428eb49883bcaf\moc_DragDropHandler.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\7d8498a3dbfb1047e8428eb49883bcaf\moc_EventFilter.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\f8c5ca5ebd5378ccfe26326ee1765f0a\moc_QuarterWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\a74782539670e2aa997fdfadda556cbc\moc_GraphvizView-internal.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\a74782539670e2aa997fdfadda556cbc\moc_GraphvizView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\FreeCADGuiInit.py" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\RemoteDebugger.ui" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\e441fa21b9c60bec3836d59e2104448c\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\AboutApplication.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Clipping.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DemoMode.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgActivateWindow.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgUnitsCalculator.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgAuthorization.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgInputDialog.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgAddProperty.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgLocationAngle.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgLocationPos.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgMacroExecute.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgRunExternal.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgMacroRecord.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgMaterialProperties.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgParameter.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgParameterFind.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgPreferencePackManagement.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgProjectInformation.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgProjectUtility.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgPropertyLink.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgRevertToBackupConfig.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgCheckableMessageBox.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgTreeWidget.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgExpressionInput.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgCreateNewPreferencePack.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DownloadManager.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DownloadItem.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DocumentRecovery.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\MouseButtons.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\InputVector.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\Placement.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SceneInspector.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TextureMapping.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskElementColors.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgObjectSelection.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\VectorListEditor.ui">
+      <Filter>Dialog</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgActions.ui">
+      <Filter>Dialog\Customize</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgChooseIcon.ui">
+      <Filter>Dialog\Customize</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgKeyboard.ui">
+      <Filter>Dialog\Customize</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgToolbars.ui">
+      <Filter>Dialog\Customize</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgOnlineHelp.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgPreferences.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettings3DView.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsCacheDirectory.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgSettingsColorGradient.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsDocument.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsEditor.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsGeneral.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\DlgSettingsImage.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsLightSources.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsMacro.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsNavigation.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsNotificationArea.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsPythonConsole.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsReportView.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsSelection.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsUI.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsViewColor.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\PreferencePages\DlgSettingsWorkbenches.ui">
+      <Filter>Dialog\Settings</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskAppearance.ui">
+      <Filter>Task View</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskOrientation.ui">
+      <Filter>Task View</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskImage.ui">
+      <Filter>Task View</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskSelectLinkProperty.ui">
+      <Filter>Task View</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\TaskView\TaskEditControl.ui">
+      <Filter>Task View</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SelectionFilter.y">
+      <Filter>Selection</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Gui\SelectionFilter.l">
+      <Filter>Selection</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\autouic_Debug.stamp" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\autouic_Release.stamp" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Gui\FreeCADGui_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3Dconnexion Navlib">
+      <UniqueIdentifier>{BA73C0D0-78F5-3487-A722-37D4FBE07775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2067397A-4887-3E54-AAD3-E25BDD7D8AA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{E969A620-322B-3F49-97A5-CDD53DD05766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{09977F08-2F8E-3598-AAB8-8D5BBF60B797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\Customize">
+      <UniqueIdentifier>{81159EE6-3382-381D-9DAF-BE2DCE54218B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\Settings">
+      <UniqueIdentifier>{225A4245-F6F0-3456-A8E5-F06EA8273B8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dock Windows">
+      <UniqueIdentifier>{100C8A48-9341-3748-9BC0-CE87CD3F87CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{7FB3014B-516A-3F3D-A9BD-1885515C4875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{71069E8A-DE13-3167-92BF-AF0808750EC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Help">
+      <UniqueIdentifier>{09462671-42A2-33AE-BAFB-DB1AF9AD3B44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Language">
+      <UniqueIdentifier>{FE973616-CE85-3B6F-9684-335AA32FA13F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Params">
+      <UniqueIdentifier>{997CEC89-C022-39F2-B28C-3A1A9D62D5E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Propertyeditor">
+      <UniqueIdentifier>{7E393974-BADF-344A-A790-D97097235278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quarter">
+      <UniqueIdentifier>{ACCC4B74-FCF8-39EF-821A-51CC49B0F527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Selection">
+      <UniqueIdentifier>{B3F126A1-1D97-3BFE-B4EE-1A6D90BA0E57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84950D1F-C2EA-3858-935B-1D487F2DE85B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task View">
+      <UniqueIdentifier>{AACF0D44-4F59-31C2-BB6A-B55EFC09A2F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{DB73741E-3709-3294-8020-4C990A5F6E07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View3D">
+      <UniqueIdentifier>{E589377E-EE58-33FA-B8A2-6171387A9222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View3D\Inventor">
+      <UniqueIdentifier>{F8D5D108-E2D5-300E-8E3D-BA9F7D59632E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View3D\Viewprovider">
+      <UniqueIdentifier>{1931FF55-A3D1-3F12-B823-77B0F1D4219E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widget">
+      <UniqueIdentifier>{ADFAFA96-88E8-3D4B-A236-E1C838238131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widget\QSintActionPanel">
+      <UniqueIdentifier>{E7049837-6675-3F21-A518-5030ED7B5EA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widget\QSintActionPanel\Mocs">
+      <UniqueIdentifier>{6CBC2AFA-591E-3A7A-8D5E-913CE8FDE4DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Workbench">
+      <UniqueIdentifier>{2AE7F91F-701D-3F1B-A648-E74B3052AF13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

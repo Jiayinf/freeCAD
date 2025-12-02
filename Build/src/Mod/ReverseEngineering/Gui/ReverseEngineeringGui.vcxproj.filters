@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\qrc_ReverseEngineering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\qrc_ReverseEngineering_translation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\FitBSplineCurve.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\FitBSplineSurface.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\Poisson.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\Segmentation.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\SegmentationManual.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\AppReverseEngineeringGui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\Command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\PreCompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\Workbench.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\FitBSplineCurve.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\FitBSplineSurface.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\Poisson.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\Segmentation.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\SegmentationManual.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\PreCompiled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\Workbench.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_Debug\ui_FitBSplineCurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_Debug\ui_FitBSplineSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_Debug\ui_Poisson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_Debug\ui_Segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_Debug\ui_SegmentationManual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_Release\ui_FitBSplineCurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_Release\ui_FitBSplineSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_Release\ui_Poisson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_Release\ui_Segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_Release\ui_SegmentationManual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_MinSizeRel\ui_FitBSplineCurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_MinSizeRel\ui_FitBSplineSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_MinSizeRel\ui_Poisson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_MinSizeRel\ui_Segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_MinSizeRel\ui_SegmentationManual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_RelWithDebInfo\ui_FitBSplineCurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_RelWithDebInfo\ui_FitBSplineSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_RelWithDebInfo\ui_Poisson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_RelWithDebInfo\ui_Segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\include_RelWithDebInfo\ui_SegmentationManual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\Resources\ReverseEngineering.qrc" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_af.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_ar.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_be.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_bg.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_ca.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_cs.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_da.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_de.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_el.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_es-AR.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_es-ES.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_eu.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_fi.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_fil.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_fr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_gl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_hr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_hu.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_id.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_it.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_ja.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_ka.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_kab.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_ko.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_lt.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_nl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_no.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_pl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_pt-BR.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_pt-PT.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_ro.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_ru.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_sk.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_sl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_sr-CS.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_sr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_sv-SE.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_tr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_uk.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_val-ES.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_vi.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_zh-CN.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\92d43f5265994c1f1e1f3c75b8dc0509\ReverseEngineering_zh-TW.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\Resources\ReverseEngineering_translation.qrc" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\Resources\icons\ReverseEngineeringWorkbench.svg" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\Build\CMakeFiles\b623da235c5aa01d59d587c2afc47608\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\FitBSplineCurve.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\FitBSplineSurface.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\Poisson.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\Segmentation.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\ReverseEngineering\Gui\SegmentationManual.ui">
+      <Filter>Dialogs</Filter>
+    </None>
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\autouic_Debug.stamp" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\autouic_Release.stamp" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\ReverseEngineering\Gui\ReverseEngineeringGui_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2067397A-4887-3E54-AAD3-E25BDD7D8AA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs">
+      <UniqueIdentifier>{79E2A5A0-5C2E-3F15-993D-7860C99C0DF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{71069E8A-DE13-3167-92BF-AF0808750EC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84950D1F-C2EA-3858-935B-1D487F2DE85B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Diagonal4.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Diagonal5.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Diamond.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Diamond2.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Diamond4.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Horizontal5.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Square.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Vertical5.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\aluminum.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\brick01.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\concrete.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\cross.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\cuprous.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\diagonal1.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\diagonal2.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\earth.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\general_steel.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\glass.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\hatch45L.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\hatch45R.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\hbone.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\line.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\plastic.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\plus.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\simple.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\solid.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\square.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\steel.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\titanium.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\wood.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\woodgrain.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\zinc.FCMat" />
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

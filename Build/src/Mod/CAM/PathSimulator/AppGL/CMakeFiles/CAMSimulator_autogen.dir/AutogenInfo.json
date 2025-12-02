@@ -1,0 +1,604 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CAMSimulator_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Project/FreeCAD-1.0.2-ori/Build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL",
+	"CMAKE_EXECUTABLE" : "D:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "D:/Project/FreeCAD-1.0.2-ori/FreeCAD",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/CAMSim.h",
+			"MU",
+			"EWIEGA46WW/moc_CAMSim.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/DlgCAMSimulator.h",
+			"MU",
+			"EWIEGA46WW/moc_DlgCAMSimulator.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/EndMill.h",
+			"MU",
+			"EWIEGA46WW/moc_EndMill.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/GCodeParser.h",
+			"MU",
+			"EWIEGA46WW/moc_GCodeParser.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/GlUtils.h",
+			"MU",
+			"EWIEGA46WW/moc_GlUtils.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/GuiDisplay.h",
+			"MU",
+			"EWIEGA46WW/moc_GuiDisplay.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/MillMotion.h",
+			"MU",
+			"EWIEGA46WW/moc_MillMotion.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/MillPathLine.h",
+			"MU",
+			"EWIEGA46WW/moc_MillPathLine.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/MillPathSegment.h",
+			"MU",
+			"EWIEGA46WW/moc_MillPathSegment.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/MillSimulation.h",
+			"MU",
+			"EWIEGA46WW/moc_MillSimulation.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/OpenGlWrapper.h",
+			"MU",
+			"EWIEGA46WW/moc_OpenGlWrapper.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/PreCompiled.h",
+			"MU",
+			"EWIEGA46WW/moc_PreCompiled.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/Shader.h",
+			"MU",
+			"EWIEGA46WW/moc_Shader.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/SimDisplay.h",
+			"MU",
+			"EWIEGA46WW/moc_SimDisplay.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/SimShapes.h",
+			"MU",
+			"EWIEGA46WW/moc_SimShapes.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/SolidObject.h",
+			"MU",
+			"EWIEGA46WW/moc_SolidObject.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/StockObject.h",
+			"MU",
+			"EWIEGA46WW/moc_StockObject.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/Texture.h",
+			"MU",
+			"EWIEGA46WW/moc_Texture.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/TextureLoader.h",
+			"MU",
+			"EWIEGA46WW/moc_TextureLoader.cpp",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/linmath.h",
+			"MU",
+			"EWIEGA46WW/moc_linmath.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CAMSimulator_autogen/include",
+	"INCLUDE_DIR_Debug" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CAMSimulator_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CAMSimulator_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CAMSimulator_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CAMSimulator_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CAMSimulator_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CAMSimulator_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CAMSimulator_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CAMSimulator_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CAMSimulator_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"BOOST_ATOMIC_DYN_LINK",
+		"BOOST_ATOMIC_NO_LIB",
+		"BOOST_CHRONO_DYN_LINK",
+		"BOOST_CHRONO_NO_LIB",
+		"BOOST_DATE_TIME_DYN_LINK",
+		"BOOST_DATE_TIME_NO_LIB",
+		"BOOST_FILESYSTEM_DYN_LINK",
+		"BOOST_FILESYSTEM_NO_LIB",
+		"BOOST_PROGRAM_OPTIONS_DYN_LINK",
+		"BOOST_PROGRAM_OPTIONS_NO_LIB",
+		"BOOST_REGEX_DYN_LINK",
+		"BOOST_REGEX_NO_LIB",
+		"BOOST_SYSTEM_DYN_LINK",
+		"BOOST_SYSTEM_NO_LIB",
+		"BOOST_THREAD_DYN_LINK",
+		"BOOST_THREAD_NO_LIB",
+		"CAMSimulator_EXPORTS",
+		"FMT_SHARED",
+		"HAVE_SNPRINTF",
+		"NOMINMAX",
+		"PYCXX_6_2_COMPATIBILITY",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_KEYWORDS",
+		"QT_OPENGLWIDGETS_LIB",
+		"QT_OPENGL_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SVGWIDGETS_LIB",
+		"QT_SVG_LIB",
+		"QT_UITOOLS_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE",
+		"_WIN64"
+	],
+	"MOC_DEFINITIONS_MinSizeRel" : 
+	[
+		"BOOST_ATOMIC_DYN_LINK",
+		"BOOST_ATOMIC_NO_LIB",
+		"BOOST_CHRONO_DYN_LINK",
+		"BOOST_CHRONO_NO_LIB",
+		"BOOST_DATE_TIME_DYN_LINK",
+		"BOOST_DATE_TIME_NO_LIB",
+		"BOOST_FILESYSTEM_DYN_LINK",
+		"BOOST_FILESYSTEM_NO_LIB",
+		"BOOST_PROGRAM_OPTIONS_DYN_LINK",
+		"BOOST_PROGRAM_OPTIONS_NO_LIB",
+		"BOOST_REGEX_DYN_LINK",
+		"BOOST_REGEX_NO_LIB",
+		"BOOST_SYSTEM_DYN_LINK",
+		"BOOST_SYSTEM_NO_LIB",
+		"BOOST_THREAD_DYN_LINK",
+		"BOOST_THREAD_NO_LIB",
+		"CAMSimulator_EXPORTS",
+		"FMT_SHARED",
+		"HAVE_SNPRINTF",
+		"NOMINMAX",
+		"PYCXX_6_2_COMPATIBILITY",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_NO_KEYWORDS",
+		"QT_OPENGLWIDGETS_LIB",
+		"QT_OPENGL_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SVGWIDGETS_LIB",
+		"QT_SVG_LIB",
+		"QT_UITOOLS_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE",
+		"_WIN64"
+	],
+	"MOC_DEFINITIONS_RelWithDebInfo" : 
+	[
+		"BOOST_ATOMIC_DYN_LINK",
+		"BOOST_ATOMIC_NO_LIB",
+		"BOOST_CHRONO_DYN_LINK",
+		"BOOST_CHRONO_NO_LIB",
+		"BOOST_DATE_TIME_DYN_LINK",
+		"BOOST_DATE_TIME_NO_LIB",
+		"BOOST_FILESYSTEM_DYN_LINK",
+		"BOOST_FILESYSTEM_NO_LIB",
+		"BOOST_PROGRAM_OPTIONS_DYN_LINK",
+		"BOOST_PROGRAM_OPTIONS_NO_LIB",
+		"BOOST_REGEX_DYN_LINK",
+		"BOOST_REGEX_NO_LIB",
+		"BOOST_SYSTEM_DYN_LINK",
+		"BOOST_SYSTEM_NO_LIB",
+		"BOOST_THREAD_DYN_LINK",
+		"BOOST_THREAD_NO_LIB",
+		"CAMSimulator_EXPORTS",
+		"FMT_SHARED",
+		"HAVE_SNPRINTF",
+		"NOMINMAX",
+		"PYCXX_6_2_COMPATIBILITY",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_NO_KEYWORDS",
+		"QT_OPENGLWIDGETS_LIB",
+		"QT_OPENGL_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SVGWIDGETS_LIB",
+		"QT_SVG_LIB",
+		"QT_UITOOLS_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE",
+		"_WIN64"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"BOOST_ATOMIC_DYN_LINK",
+		"BOOST_ATOMIC_NO_LIB",
+		"BOOST_CHRONO_DYN_LINK",
+		"BOOST_CHRONO_NO_LIB",
+		"BOOST_DATE_TIME_DYN_LINK",
+		"BOOST_DATE_TIME_NO_LIB",
+		"BOOST_FILESYSTEM_DYN_LINK",
+		"BOOST_FILESYSTEM_NO_LIB",
+		"BOOST_PROGRAM_OPTIONS_DYN_LINK",
+		"BOOST_PROGRAM_OPTIONS_NO_LIB",
+		"BOOST_REGEX_DYN_LINK",
+		"BOOST_REGEX_NO_LIB",
+		"BOOST_SYSTEM_DYN_LINK",
+		"BOOST_SYSTEM_NO_LIB",
+		"BOOST_THREAD_DYN_LINK",
+		"BOOST_THREAD_NO_LIB",
+		"CAMSimulator_EXPORTS",
+		"FMT_SHARED",
+		"HAVE_FREETYPE",
+		"HAVE_OPENGL_EXT",
+		"HAVE_SNPRINTF",
+		"HAVE_TK",
+		"HAVE_VTK",
+		"NOMINMAX",
+		"PYCXX_6_2_COMPATIBILITY",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_NO_KEYWORDS",
+		"QT_OPENGLWIDGETS_LIB",
+		"QT_OPENGL_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_SVGWIDGETS_LIB",
+		"QT_SVG_LIB",
+		"QT_UITOOLS_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"UNICODE",
+		"VTK_OPENGL2_BACKEND",
+		"WIN32",
+		"WIN64",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_OCC64",
+		"_PreComp_",
+		"_UNICODE",
+		"_WIN64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : [],
+	"MOC_INCLUDES_Debug" : 
+	[
+		"D:/Project/FreeCAD-1.0.2-ori/Build/src",
+		"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src",
+		"D:/Project/FreeCAD-1.0.2-ori/Build",
+		"D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/boost-1_85",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/inc",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/eigen3",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/bin/Include",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/mkspecs/win32-msvc",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtXml",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtConcurrent",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtGui/6.7.2",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtGui/6.7.2/QtGui",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore/6.7.2",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore/6.7.2/QtCore",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtGui",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtWidgets",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtOpenGL",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtPrintSupport",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtSvg",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtSvgWidgets",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtNetwork",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtUiTools",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtOpenGLWidgets"
+	],
+	"MOC_INCLUDES_MinSizeRel" : 
+	[
+		"D:/Project/FreeCAD-1.0.2-ori/Build/src",
+		"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src",
+		"D:/Project/FreeCAD-1.0.2-ori/Build",
+		"D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/boost-1_85",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/inc",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/eigen3",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/bin/Include",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/mkspecs/win32-msvc",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtXml",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtConcurrent",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtGui/6.7.2",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtGui/6.7.2/QtGui",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore/6.7.2",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore/6.7.2/QtCore",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtGui",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtWidgets",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtOpenGL",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtPrintSupport",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtSvg",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtSvgWidgets",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtNetwork",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtUiTools",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtOpenGLWidgets"
+	],
+	"MOC_INCLUDES_RelWithDebInfo" : 
+	[
+		"D:/Project/FreeCAD-1.0.2-ori/Build/src",
+		"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src",
+		"D:/Project/FreeCAD-1.0.2-ori/Build",
+		"D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/boost-1_85",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/inc",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/eigen3",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/bin/Include",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/mkspecs/win32-msvc",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtXml",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtConcurrent",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtGui/6.7.2",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtGui/6.7.2/QtGui",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore/6.7.2",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore/6.7.2/QtCore",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtGui",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtWidgets",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtOpenGL",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtPrintSupport",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtSvg",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtSvgWidgets",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtNetwork",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtUiTools",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtOpenGLWidgets"
+	],
+	"MOC_INCLUDES_Release" : 
+	[
+		"D:/Project/FreeCAD-1.0.2-ori/Build/src",
+		"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src",
+		"D:/Project/FreeCAD-1.0.2-ori/Build",
+		"D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/boost-1_85",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/inc",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/eigen3",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/bin/Include",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/mkspecs/win32-msvc",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtXml",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtConcurrent",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtGui/6.7.2",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtGui/6.7.2/QtGui",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore/6.7.2",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtCore/6.7.2/QtCore",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtGui",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtWidgets",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtOpenGL",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtPrintSupport",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtSvg",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtSvgWidgets",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtNetwork",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtUiTools",
+		"D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/QtOpenGLWidgets"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CMakeFiles/CAMSimulator_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CMakeFiles/CAMSimulator_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CMakeFiles/CAMSimulator_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CMakeFiles/CAMSimulator_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CMakeFiles/CAMSimulator_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/./bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/./bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 7,
+	"SETTINGS_FILE" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CMakeFiles/CAMSimulator_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CMakeFiles/CAMSimulator_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CMakeFiles/CAMSimulator_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CMakeFiles/CAMSimulator_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/CAM/PathSimulator/AppGL/CMakeFiles/CAMSimulator_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/AppCAMSimulator.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/CAMSim.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/CAMSimPyImp.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/DlgCAMSimulator.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/EndMill.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/GCodeParser.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/GlUtils.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/GuiDisplay.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/MillPathLine.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/MillPathSegment.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/MillSimulation.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/PreCompiled.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/Shader.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/SimDisplay.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/SimShapes.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/SolidObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/StockObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/Texture.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/CAM/PathSimulator/AppGL/TextureLoader.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

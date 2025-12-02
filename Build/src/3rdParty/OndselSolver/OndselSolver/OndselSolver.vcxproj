@@ -1,0 +1,1013 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E752CABA-72CE-3CE4-B8CD-5725B47CC6FD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>OndselSolver</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OndselSolver.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OndselSolver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OndselSolver.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OndselSolver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OndselSolver.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OndselSolver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OndselSolver.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OndselSolver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\include_Debug;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;FC_DEBUG;_USE_MATH_DEFINES;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;TEST_DATA_PATH="D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/OndselSolver/testapp";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;FC_DEBUG;_USE_MATH_DEFINES;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;TEST_DATA_PATH=\"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/OndselSolver/testapp\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\include_Debug;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\include_Debug;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target OndselSolver</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/OndselSolver/OndselSolver/CMakeFiles/OndselSolver_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\include_Release;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;HAVE_OPENGL_EXT;VTK_OPENGL2_BACKEND;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;TEST_DATA_PATH="D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/OndselSolver/testapp";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;HAVE_OPENGL_EXT;VTK_OPENGL2_BACKEND;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;TEST_DATA_PATH=\"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/OndselSolver/testapp\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\include_Release;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\include_Release;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target OndselSolver</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/OndselSolver/OndselSolver/CMakeFiles/OndselSolver_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\include_MinSizeRel;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;TEST_DATA_PATH="D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/OndselSolver/testapp";CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;TEST_DATA_PATH=\"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/OndselSolver/testapp\";CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\include_MinSizeRel;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\include_MinSizeRel;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target OndselSolver</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/OndselSolver/OndselSolver/CMakeFiles/OndselSolver_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\include_RelWithDebInfo;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;TEST_DATA_PATH="D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/OndselSolver/testapp";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;TEST_DATA_PATH=\"D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/OndselSolver/testapp\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\include_RelWithDebInfo;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\include_RelWithDebInfo;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target OndselSolver</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/OndselSolver/OndselSolver/CMakeFiles/OndselSolver_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/OndselSolver/OndselSolver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/OndselSolver/OndselSolver/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/OndselSolver/OndselSolver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/OndselSolver/OndselSolver/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/OndselSolver/OndselSolver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/OndselSolver/OndselSolver/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/OndselSolver/OndselSolver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/OndselSolver/OndselSolver/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Abs.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AbsConstraint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AccICKineNewtonRaphson.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AccICNewtonRaphson.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AccKineNewtonRaphson.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AccNewtonRaphson.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AllowZRotation.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AllowZRotationConstraintIqctJqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AngleJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AngleZConstraintIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AngleZConstraintIqcJc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AngleZConstraintIqcJqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AngleZIecJec.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AngleZIeqcJec.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AngleZIeqcJeqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AnyGeneralSpline.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AnyPosICNewtonRaphson.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ArcSine.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ArcTan.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ArcTan2.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Arguments.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Array.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTAllowRotation.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTAngleJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTAnimationParameters.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTAssembly.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTConeConeContact.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTContact.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTCylConeContact.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTCylCylContact.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTCompoundJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTConstantGravity.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTConstantVelocityJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTConstraintSet.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTCylindricalJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTCylSphJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTExtrusion.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTFixedJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTForceTorque.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTGearJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTGeneralMotion.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTInPlaneJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTItem.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTItemIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTKinematicIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTLimit.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTLineInPlaneJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTMarker.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTMotion.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTNoRotationJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTParallelAxesJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTPart.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTPerpendicularJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTPlanarJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTPointInLineJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTPointInPlaneJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTPrincipalMassMarker.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRackPinionJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRefCurve.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRefItem.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRefPoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRefSurface.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRevCylJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRevoluteJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRevRevJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRotationalMotion.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRotationLimit.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTScrewJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTSimulationParameters.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTSpatialContainer.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTSpatialItem.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTSphericalJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTSphSphJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTTime.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTTranslationalJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTTranslationalMotion.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTTranslationLimit.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTUniversalJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AtPointConstraintIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AtPointConstraintIqcJc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AtPointConstraintIqcJqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AtPointConstraintIqctJqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AtPointJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\BasicIntegrator.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\BasicQuasiIntegrator.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\BasicUserFunction.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\CADSystem.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\CartesianFrame.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\CompoundJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Constant.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ConstantGravity.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ConstantVelocityJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Constraint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ConstraintIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ConstraintSet.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ConstVelConstraintIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ConstVelConstraintIqcJc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ConstVelConstraintIqcJqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Cosine.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\CREATE.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\CylindricalJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\CylSphJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DiagonalMatrix.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DifferenceOperator.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DifferentiatedGeneralSpline.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineConstraintIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineConstraintIqcJc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineConstraintIqcJqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineConstraintIqctJqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineIecJec.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineIeqcJec.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineIeqcJeqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineIeqctJeqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DiscontinuityError.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIecJecIe.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIecJecKec.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIecJecKeqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIecJecO.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqcJecIe.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqcJecKeqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqcJecO.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqcJeqcIe.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqcJeqcKeqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqcJeqcKeqct.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqcJeqcO.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqctJeqcIe.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqctJeqcKeqct.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqctJeqcO.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistanceConstraintIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistanceConstraintIqcJc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistanceConstraintIqcJqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistanceConstraintIqctJqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistancexyConstraintIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistancexyConstraintIqcJc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistancexyConstraintIqcJqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistIecJec.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistIeqcJec.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistIeqcJeqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistIeqctJeqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistxyIecJec.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistxyIeqcJec.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistxyIeqcJeqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistxyIeqctJeqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EigenDecomposition.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EndFramec.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EndFrameqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EndFrameqct.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EndFrameqct2.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerAngles.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerAnglesDDot.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerAnglesDot.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerAngleszxz.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerAngleszxzDDot.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerAngleszxzDot.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerArray.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerConstraint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerParameters.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerParametersDDot.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerParametersDot.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Exponential.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ExpressionX.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ExternalSystem.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FixedJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ForceTorqueData.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ForceTorqueItem.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FullColumn.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FullMatrix.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FullMotion.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FullRow.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FullVector.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Function.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FunctionFromData.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FunctionWithManyArgs.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FunctionX.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FunctionXcParameter.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FunctionXY.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GearConstraintIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GearConstraintIqcJc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GearConstraintIqcJqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GearJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GEFullMat.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GEFullMatFullPv.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GEFullMatParPv.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GeneralSpline.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GESpMat.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GESpMatFullPv.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GESpMatFullPvPosIC.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GESpMatParPv.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GESpMatParPvMarko.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GESpMatParPvMarkoFast.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GESpMatParPvPrecise.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ICKineIntegrator.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\IndependentVariable.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\InLineJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\InPlaneJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Integral.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Integrator.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\IntegratorInterface.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Item.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ItemIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Joint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\KineIntegrator.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\KinematicIeJe.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LDUFullMat.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LDUFullMatParPv.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LDUSpMat.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LDUSpMatParPv.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LDUSpMatParPvMarko.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LDUSpMatParPvPrecise.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LimitIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LinearMultiStepMethod.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LineInPlaneJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Ln.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Log10.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LogN.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MarkerFrame.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MatrixDecomposition.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MatrixGaussElimination.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MatrixLDU.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MatrixSolver.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MaximumIterationError.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MbDMath.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MomentOfInertiaSolver.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Negative.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\NewtonRaphson.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\NewtonRaphsonError.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\NoRotationJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\NotKinematicError.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Numeric.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\OrbitAngleZIecJec.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\OrbitAngleZIeqcJec.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\OrbitAngleZIeqcJeqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Orientation.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ParallelAxesJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Part.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PartFrame.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PerpendicularJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PiecewiseFunction.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PlanarJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PointInLineJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PointInPlaneJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Polynomial.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PosICDragLimitNewtonRaphson.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PosICDragNewtonRaphson.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PosICKineNewtonRaphson.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PosICNewtonRaphson.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PosKineNewtonRaphson.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PosNewtonRaphson.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PosVelAccData.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Power.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PrescribedMotion.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Product.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\QuasiIntegrator.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RackPinConstraintIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RackPinConstraintIqcJc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RackPinConstraintIqcJqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RackPinJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RampStepFunction.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Reciprocal.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RedundantConstraint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RevCylJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RevoluteJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RevRevJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RotationLimitIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RowTypeMatrix.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ScalarNewtonRaphson.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ScrewConstraintIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ScrewConstraintIqcJc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ScrewConstraintIqcJqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ScrewJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SimulationStoppingError.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Sine.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SingularMatrixError.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Solver.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SparseColumn.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SparseMatrix.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SparseRow.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SparseVector.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SphericalJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SphSphJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\StableBackwardDifference.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\StateData.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Sum.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Symbolic.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SymbolicParser.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SyntaxError.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\System.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SystemNewtonRaphson.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SystemSolver.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SymTime.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TooManyTriesError.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TooSmallStepSizeError.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Translation.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TranslationalJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TranslationConstraintIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TranslationConstraintIqcJc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TranslationConstraintIqcJqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TranslationConstraintIqctJqc.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TranslationLimitIJ.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Units.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\UniversalJoint.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\UserFunction.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Variable.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\VectorNewtonRaphson.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\VelICKineSolver.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\VelICSolver.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\VelKineSolver.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\VelSolver.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ZRotation.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ZTranslation.cpp" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Abs.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AbsConstraint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AccICKineNewtonRaphson.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AccICNewtonRaphson.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AccKineNewtonRaphson.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AccNewtonRaphson.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AllowZRotation.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AllowZRotationConstraintIqctJqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AngleJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AngleZConstraintIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AngleZConstraintIqcJc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AngleZConstraintIqcJqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AngleZIecJec.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AngleZIeqcJec.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AngleZIeqcJeqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AnyGeneralSpline.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AnyPosICNewtonRaphson.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ArcSine.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ArcTan.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ArcTan2.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Arguments.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Array.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTAllowRotation.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTAngleJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTAnimationParameters.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTAssembly.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTAtPointJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTCompoundJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTConstantGravity.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTConstantVelocityJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTConstraintSet.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTCylindricalJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTCylSphJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTExtrusion.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTFixedJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTForceTorque.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTGearJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTGeneralMotion.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTInLineJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTInPlaneJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTItem.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTItemIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTKinematicIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTLimit.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTLineInPlaneJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTMarker.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTMotion.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTNoRotationJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTParallelAxesJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTPart.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTPerpendicularJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTPlanarJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTPointInLineJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTPointInPlaneJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTPrincipalMassMarker.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRackPinionJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRefCurve.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRefItem.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRefPoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRefSurface.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRevCylJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRevoluteJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRevRevJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRotationalMotion.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTRotationLimit.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTScrewJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTSimulationParameters.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTSpatialContainer.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTSpatialItem.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTSphericalJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTSphSphJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTTime.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTTranslationalJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTTranslationalMotion.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTTranslationLimit.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTUniversalJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AtPointConstraintIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AtPointConstraintIqcJc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AtPointConstraintIqcJqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AtPointConstraintIqctJqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\AtPointJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\BasicIntegrator.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\BasicQuasiIntegrator.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\BasicUserFunction.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\CADSystem.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\CartesianFrame.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\CompoundJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTConeConeContact.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTContact.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTCylConeContact.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ASMTCylCylContact.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Constant.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ConstantGravity.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ConstantVelocityJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Constraint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ConstraintIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ConstraintSet.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ConstVelConstraintIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ConstVelConstraintIqcJc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ConstVelConstraintIqcJqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Cosine.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\CREATE.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\CylindricalJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\CylSphJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DiagonalMatrix.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DifferenceOperator.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DifferentiatedGeneralSpline.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineConstraintIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineConstraintIqcJc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineConstraintIqcJqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineConstraintIqctJqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineIecJec.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineIeqcJec.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineIeqcJeqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DirectionCosineIeqctJeqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DiscontinuityError.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIecJecIe.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIecJecKec.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIecJecKeqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIecJecO.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqcJecIe.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqcJecKeqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqcJecO.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqcJeqcIe.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqcJeqcKeqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqcJeqcKeqct.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqcJeqcO.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqctJeqcIe.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqctJeqcKeqct.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DispCompIeqctJeqcO.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistanceConstraintIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistanceConstraintIqcJc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistanceConstraintIqcJqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistanceConstraintIqctJqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistancexyConstraintIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistancexyConstraintIqcJc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistancexyConstraintIqcJqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistIecJec.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistIeqcJec.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistIeqcJeqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistIeqctJeqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistxyIecJec.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistxyIeqcJec.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistxyIeqcJeqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\DistxyIeqctJeqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EigenDecomposition.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EndFramec.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EndFrameqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EndFrameqct.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EndFrameqct2.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\enum.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerAngles.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerAnglesDDot.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerAnglesDot.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerAngleszxz.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerAngleszxzDDot.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerAngleszxzDot.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerArray.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerConstraint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerParameters.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerParametersDDot.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\EulerParametersDot.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Exponential.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ExpressionX.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ExternalSystem.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FixedJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ForceTorqueData.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ForceTorqueItem.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FullColumn.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FullMatrix.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FullMotion.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FullRow.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FullVector.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Function.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FunctionFromData.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FunctionWithManyArgs.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FunctionX.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FunctionXcParameter.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\FunctionXY.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GearConstraintIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GearConstraintIqcJc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GearConstraintIqcJqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GearJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GEFullMat.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GEFullMatFullPv.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GEFullMatParPv.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GeneralSpline.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GESpMat.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GESpMatFullPv.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GESpMatFullPvPosIC.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GESpMatParPv.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GESpMatParPvMarko.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GESpMatParPvMarkoFast.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\GESpMatParPvPrecise.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ICKineIntegrator.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\IndependentVariable.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\InLineJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\InPlaneJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Integrator.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\IntegratorInterface.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Item.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ItemIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Joint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\KineIntegrator.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\KinematicIeJe.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LDUFullMat.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LDUFullMatParPv.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LDUSpMat.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LDUSpMatParPv.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LDUSpMatParPvMarko.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LDUSpMatParPvPrecise.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LimitIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LinearMultiStepMethod.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LineInPlaneJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Ln.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Log10.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\LogN.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MarkerFrame.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MatrixDecomposition.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MatrixGaussElimination.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MatrixLDU.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MatrixSolver.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MaximumIterationError.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MbDMath.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\MomentOfInertiaSolver.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Negative.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\NewtonRaphson.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\NewtonRaphsonError.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\NoRotationJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\NotKinematicError.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Numeric.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\OrbitAngleZIecJec.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\OrbitAngleZIeqcJec.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\OrbitAngleZIeqcJeqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Orientation.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ParallelAxesJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Part.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PartFrame.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PerpendicularJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PlanarJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PointInLineJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PointInPlaneJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PosICDragLimitNewtonRaphson.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PosICDragNewtonRaphson.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PosICKineNewtonRaphson.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PosICNewtonRaphson.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PosKineNewtonRaphson.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PosNewtonRaphson.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PosVelAccData.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Power.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\PrescribedMotion.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Product.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\QuasiIntegrator.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RackPinConstraintIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RackPinConstraintIqcJc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RackPinConstraintIqcJqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RackPinJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Reciprocal.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RedundantConstraint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\resource.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RevCylJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RevoluteJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RevRevJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RotationLimitIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\RowTypeMatrix.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ScalarNewtonRaphson.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ScrewConstraintIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ScrewConstraintIqcJc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ScrewConstraintIqcJqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ScrewJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SimulationStoppingError.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Sine.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SingularMatrixError.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Solver.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SparseColumn.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SparseMatrix.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SparseRow.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SparseVector.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SphericalJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SphSphJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\StableBackwardDifference.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\StateData.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Sum.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Symbolic.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SymbolicParser.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SyntaxError.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\System.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SystemNewtonRaphson.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SystemSolver.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\SymTime.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TooManyTriesError.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TooSmallStepSizeError.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Translation.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TranslationalJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TranslationConstraintIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TranslationConstraintIqcJc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TranslationConstraintIqcJqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TranslationConstraintIqctJqc.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\TranslationLimitIJ.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Units.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\UniversalJoint.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\UserFunction.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\Variable.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\VectorNewtonRaphson.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\VelICKineSolver.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\VelICSolver.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\VelKineSolver.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\VelSolver.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ZRotation.h" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\OndselSolver\OndselSolver\ZTranslation.h" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\OndselSolver\OndselSolver\OndselSolver_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\ZERO_CHECK.vcxproj">
+      <Project>{FC9EC38A-2C8D-31AA-8223-50EE9BFA1B59}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,1986 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CF227DDA-BA17-313D-92E3-C9952CC2BDE9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>PatternLib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command></Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Diagonal4.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diagonal4.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diagonal4.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diagonal4.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal4.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diagonal4.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Diagonal5.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diagonal5.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diagonal5.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diagonal5.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diagonal5.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diagonal5.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Diamond.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diamond.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diamond.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diamond.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diamond.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Diamond2.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diamond2.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diamond2.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diamond2.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond2.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diamond2.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Diamond4.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diamond4.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diamond4.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diamond4.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Diamond4.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Diamond4.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Horizontal5.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Horizontal5.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Horizontal5.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Horizontal5.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Horizontal5.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Horizontal5.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Square.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Square.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Square.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Square.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Square.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Square.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\PAT\Vertical5.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Vertical5.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Vertical5.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Vertical5.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/PAT/Vertical5.FCMat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\PAT\Vertical5.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\aluminum.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\aluminum.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\aluminum.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\aluminum.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/aluminum.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\aluminum.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\brick01.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\brick01.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\brick01.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\brick01.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/brick01.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\brick01.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\concrete.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\concrete.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\concrete.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\concrete.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/concrete.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\concrete.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\cross.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\cross.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\cross.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\cross.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cross.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\cross.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\cuprous.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\cuprous.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\cuprous.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\cuprous.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/cuprous.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\cuprous.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\diagonal1.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\diagonal1.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\diagonal1.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\diagonal1.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal1.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\diagonal1.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\diagonal2.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\diagonal2.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\diagonal2.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\diagonal2.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/diagonal2.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\diagonal2.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\earth.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\earth.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\earth.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\earth.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/earth.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\earth.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\general_steel.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\general_steel.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\general_steel.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\general_steel.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/general_steel.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\general_steel.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\glass.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\glass.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\glass.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\glass.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/glass.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\glass.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\hatch45L.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\hatch45L.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\hatch45L.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\hatch45L.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45L.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\hatch45L.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\hatch45R.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\hatch45R.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\hatch45R.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\hatch45R.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hatch45R.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\hatch45R.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\hbone.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\hbone.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\hbone.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\hbone.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/hbone.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\hbone.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\line.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\line.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\line.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\line.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/line.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\line.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\plastic.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\plastic.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\plastic.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\plastic.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plastic.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\plastic.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\plus.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\plus.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\plus.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\plus.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/plus.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\plus.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\simple.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\simple.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\simple.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\simple.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/simple.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\simple.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\solid.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\solid.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\solid.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\solid.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/solid.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\solid.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\square.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\square.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\square.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\square.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/square.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\square.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\steel.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\steel.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\steel.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\steel.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/steel.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\steel.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\titanium.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\titanium.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\titanium.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\titanium.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/titanium.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\titanium.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\wood.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\wood.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\wood.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\wood.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/wood.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\wood.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\woodgrain.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\woodgrain.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\woodgrain.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\woodgrain.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/woodgrain.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\woodgrain.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\Resources\Materials\Patterns\Pattern Files\zinc.FCMat">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\zinc.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\zinc.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\zinc.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat to D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat" "D:/Project/FreeCAD-1.0.2-ori/Build/data/Mod/Material/Resources/Materials/Patterns/Pattern Files/zinc.FCMat"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\data\Mod\Material\Resources\Materials\Patterns\Pattern Files\zinc.FCMat</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\Mod\Material\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/Material/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/Material/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/Material/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/Mod/Material/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/Mod/Material/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\Mod\Material\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\ZERO_CHECK.vcxproj">
+      <Project>{FC9EC38A-2C8D-31AA-8223-50EE9BFA1B59}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.31/Modules/FindPython/Support.cmake
+D:/Program Files/CMake/share/cmake-3.31/Modules/FindPython3.cmake
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/tests/lib/googletest/CMakeLists.txt
+D:/Project/FreeCAD-1.0.2-ori/FreeCAD/tests/lib/googletest/cmake/internal_utils.cmake

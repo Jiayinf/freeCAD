@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7DC235F4-12EE-3C0F-9381-EED19BC27E28}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>SMDS</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SMDS.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SMDS_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SMDS.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SMDS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SMDS.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SMDS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SMDS.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SMDS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\SMDS_autogen\include_Debug;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\Driver;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/inc" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkhdf5" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkhdf5/src" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkhdf5/hl/src" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkfreetype/include" /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4290;4251;4018;4800;4996;4244;4805;4806;4275;4005;4099;4101;4146;4267;4390;4503;4436</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;FC_DEBUG;SMDS_EXPORTS;UTILS_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=396131;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;FC_DEBUG;SMDS_EXPORTS;UTILS_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=396131;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\SMDS_autogen\include_Debug;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\Driver;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\hl\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkfreetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\SMDS_autogen\include_Debug;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\Driver;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\hl\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkfreetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic UIC for target SMDS</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/SMDS_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>MSVCRTD.lib;MSVCPRTD.lib;Rpcrt4.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\nglib.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKOffset.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFeat.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTEP.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEIGES.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEGLTF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTL.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBin.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBinL.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMeshVS.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKRWMesh.lib;vcruntimed.lib;ucrtd.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkInteractionStyle-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingFreeType-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingOpenGL2-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\ngcore.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFillet.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXSBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBool.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKVCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDE.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBO.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKPrim.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKLCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCDF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKV3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMesh.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKShHealing.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKHLR.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKTopAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBRep.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG2d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKService.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMath.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKernel.lib;wsock32.lib;psapi.lib;advapi32.lib;windowscodecs.lib;winmm.lib;gdi32.lib;user32.lib;opengl32.lib;freetype.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkhdf5_hl-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkhdf5-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersExtraction-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOXML-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOXMLParser-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOLegacy-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkfreetype-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOImage-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkzlib-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingHyperTreeGrid-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkImagingCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingUI-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersSources-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersGeneral-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersVerdict-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersGeometry-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonExecutionModel-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonDataModel-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonTransforms-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonMisc-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonMath-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkkissfft-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkglew-9.3.lib;opengl32.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib;D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/FreeCAD-1.0.2-ori/Build/lib/Debug/SMDS_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/FreeCAD-1.0.2-ori/Build/bin/SMDS_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\SMDS_autogen\include_Release;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\Driver;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/inc" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkhdf5" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkhdf5/src" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkhdf5/hl/src" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkfreetype/include" /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4290;4251;4018;4800;4996;4244;4805;4806;4275;4005;4099;4101;4146;4267;4390;4503;4436</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMDS_EXPORTS;UTILS_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;HAVE_OPENGL_EXT;VTK_OPENGL2_BACKEND;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=396131;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;MSVC_EXPRESS;HAVE_STRUCT_TIMESPEC;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMDS_EXPORTS;UTILS_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;HAVE_TK;HAVE_FREETYPE;HAVE_VTK;HAVE_OPENGL_EXT;VTK_OPENGL2_BACKEND;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=396131;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;MSVC_EXPRESS;HAVE_STRUCT_TIMESPEC;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\SMDS_autogen\include_Release;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\Driver;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\hl\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkfreetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\SMDS_autogen\include_Release;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\Driver;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\hl\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkfreetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic UIC for target SMDS</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/SMDS_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\nglib.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKOffset.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFeat.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTEP.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEIGES.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEGLTF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTL.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBin.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBinL.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMeshVS.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKRWMesh.lib;vcruntime.lib;ucrt.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkInteractionStyle-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingFreeType-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingOpenGL2-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\ngcore.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFillet.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXSBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBool.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKVCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDE.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBO.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKPrim.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKLCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCDF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKV3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMesh.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKShHealing.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKHLR.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKTopAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBRep.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG2d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKService.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMath.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKernel.lib;wsock32.lib;psapi.lib;advapi32.lib;windowscodecs.lib;winmm.lib;gdi32.lib;user32.lib;opengl32.lib;freetype.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkhdf5_hl-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkhdf5-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersExtraction-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOXML-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOXMLParser-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOLegacy-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkfreetype-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOImage-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkzlib-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingHyperTreeGrid-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkImagingCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingUI-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersSources-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersGeneral-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersVerdict-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersGeometry-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonExecutionModel-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonDataModel-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonTransforms-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonMisc-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonMath-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkkissfft-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkglew-9.3.lib;opengl32.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib;D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/FreeCAD-1.0.2-ori/Build/lib/Release/SMDS.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/FreeCAD-1.0.2-ori/Build/bin/SMDS.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\SMDS_autogen\include_MinSizeRel;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\Driver;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/inc" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkhdf5" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkhdf5/src" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkhdf5/hl/src" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkfreetype/include" /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4290;4251;4018;4800;4996;4244;4805;4806;4275;4005;4099;4101;4146;4267;4390;4503;4436</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMDS_EXPORTS;UTILS_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=396131;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMDS_EXPORTS;UTILS_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=396131;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\SMDS_autogen\include_MinSizeRel;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\Driver;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\hl\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkfreetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\SMDS_autogen\include_MinSizeRel;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\Driver;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\hl\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkfreetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic UIC for target SMDS</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/SMDS_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\nglib.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKOffset.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFeat.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTEP.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEIGES.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEGLTF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTL.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBin.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBinL.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMeshVS.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKRWMesh.lib;vcruntime.lib;ucrt.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkInteractionStyle-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingFreeType-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingOpenGL2-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\ngcore.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFillet.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXSBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBool.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKVCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDE.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBO.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKPrim.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKLCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCDF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKV3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMesh.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKShHealing.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKHLR.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKTopAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBRep.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG2d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKService.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMath.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKernel.lib;wsock32.lib;psapi.lib;advapi32.lib;windowscodecs.lib;winmm.lib;gdi32.lib;user32.lib;opengl32.lib;freetype.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkhdf5_hl-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkhdf5-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersExtraction-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOXML-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOXMLParser-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOLegacy-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkfreetype-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOImage-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkzlib-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingHyperTreeGrid-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkImagingCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingUI-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersSources-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersGeneral-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersVerdict-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersGeometry-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonExecutionModel-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonDataModel-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonTransforms-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonMisc-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonMath-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkkissfft-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkglew-9.3.lib;opengl32.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib;D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/FreeCAD-1.0.2-ori/Build/lib/MinSizeRel/SMDS.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/FreeCAD-1.0.2-ori/Build/bin/MinSizeRel/SMDS.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\SMDS_autogen\include_RelWithDebInfo;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\Driver;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/inc" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkhdf5" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkhdf5/src" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkhdf5/hl/src" /external:I "D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/include/vtk-9.3/vtkfreetype/include" /Zm150 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4290;4251;4018;4800;4996;4244;4805;4806;4275;4005;4099;4101;4146;4267;4390;4503;4436</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMDS_EXPORTS;UTILS_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=396131;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMDS_EXPORTS;UTILS_EXPORTS;HAVE_SNPRINTF;PYCXX_6_2_COMPATIBILITY;QT_NO_KEYWORDS;_OCC64;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NOMINMAX;NO_PARALLEL_THREADS;OCCGEOMETRY;NETGEN_VERSION=396131;WNT;CSFDB;USE_CLOCK;MSDOS;NO_ONEXIT;NO_My_ctype;NO_ISATTY;NO_FPINIT;_WIN32_WINNT=0x1000;WNT_WINDOW;MSVC_EXPRESS;_CRT_SECURE_NO_WARNINGS;HAVE_STRUCT_TIMESPEC;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\SMDS_autogen\include_RelWithDebInfo;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\Driver;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\hl\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkfreetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\SMDS_autogen\include_RelWithDebInfo;D:\Project\FreeCAD-1.0.2-ori\Build\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\Driver;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverUNV;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverDAT;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\DriverSTL;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\StdMeshers;D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc;D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\boost-1_85;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\inc;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkhdf5\hl\src;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\include\vtk-9.3\vtkfreetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic UIC for target SMDS</Message>
+      <Command>setlocal
+cd D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/SMDS_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>MSVCRT.lib;MSVCPRT.lib;Rpcrt4.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\nglib.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKOffset.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFeat.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTEP.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEIGES.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDEGLTF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDESTL.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBin.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBinL.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMeshVS.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKRWMesh.lib;vcruntime.lib;ucrt.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkInteractionStyle-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingFreeType-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingOpenGL2-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\ngcore.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKFillet.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXSBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBool.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKXCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKVCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKDE.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBO.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKPrim.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKLCAF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKCDF.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKV3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMesh.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKShHealing.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKHLR.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKTopAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomAlgo.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKBRep.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKGeomBase.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG3d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKG2d.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKService.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKMath.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\TKernel.lib;wsock32.lib;psapi.lib;advapi32.lib;windowscodecs.lib;winmm.lib;gdi32.lib;user32.lib;opengl32.lib;freetype.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkhdf5_hl-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkhdf5-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersExtraction-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOXML-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOXMLParser-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOLegacy-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkfreetype-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkIOImage-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkzlib-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingHyperTreeGrid-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkImagingCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingUI-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkRenderingCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersSources-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersGeneral-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersVerdict-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersGeometry-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkFiltersCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonExecutionModel-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonDataModel-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonTransforms-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonMisc-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonMath-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkkissfft-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkglew-9.3.lib;opengl32.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtkCommonCore-9.3.lib;D:\Project\FreeCAD-1.0.2-ori\LibPack-1.0.0-v3.0.0-Release\lib\vtksys-9.3.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;SHFolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;comsupp.lib;Ws2_32.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib;D:/Project/FreeCAD-1.0.2-ori/LibPack-1.0.0-v3.0.0-Release/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4273 /ignore:4217 /ignore:4049</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/FreeCAD-1.0.2-ori/Build/lib/RelWithDebInfo/SMDS.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/FreeCAD-1.0.2-ori/Build/bin/RelWithDebInfo/SMDS.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/FreeCAD-1.0.2-ori/FreeCAD/src/3rdParty/salomesmesh/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Project/FreeCAD-1.0.2-ori/FreeCAD -BD:/Project/FreeCAD-1.0.2-ori/Build --check-stamp-file D:/Project/FreeCAD-1.0.2-ori/Build/src/3rdParty/salomesmesh/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\FreeCAD-1.0.2-ori\Build\src\3rdParty\salomesmesh\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDSAbs_ElementType.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_BallElement.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_Downward.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_EdgePosition.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_ElemIterator.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_FaceOfEdges.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_FaceOfNodes.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_FacePosition.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_Iterator.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_IteratorOfElements.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_IteratorOnIterators.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_LinearEdge.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_Mesh.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_Mesh0DElement.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_MeshCell.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_MeshEdge.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_MeshElement.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_MeshElementIDFactory.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_MeshFace.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_MeshGroup.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_MeshIDFactory.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_MeshInfo.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_MeshNode.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_MeshNodeIDFactory.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_MeshObject.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_MeshVolume.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_PolygonalFaceOfNodes.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_PolyhedralVolumeOfNodes.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_Position.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_QuadraticEdge.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_QuadraticFaceOfNodes.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_QuadraticVolumeOfNodes.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_SetIterator.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_SpacePosition.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_StdIterator.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_TypeOfPosition.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_UnstructuredGrid.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_VertexPosition.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_VolumeOfFaces.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_VolumeOfNodes.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_VolumeTool.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_VtkCellIterator.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_VtkEdge.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_VtkFace.hxx" />
+    <ClInclude Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\inc\SMDS_VtkVolume.hxx" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_BallElement.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_Downward.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_EdgePosition.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_FaceOfEdges.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_FaceOfNodes.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_FacePosition.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_IteratorOfElements.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_LinearEdge.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_Mesh.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_Mesh0DElement.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_MeshCell.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_MeshEdge.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_MeshElement.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_MeshElementIDFactory.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_MeshFace.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_MeshGroup.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_MeshIDFactory.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_MeshNode.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_MeshNodeIDFactory.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_MeshObject.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_MeshVolume.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_PolygonalFaceOfNodes.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_PolyhedralVolumeOfNodes.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_Position.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_QuadraticEdge.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_QuadraticFaceOfNodes.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_QuadraticVolumeOfNodes.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_SpacePosition.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_UnstructuredGrid.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_VertexPosition.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_VolumeOfFaces.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_VolumeOfNodes.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_VolumeTool.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_VtkCellIterator.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_VtkEdge.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_VtkFace.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\SMDS_VtkVolume.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\Utils_SALOME_Exception.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\chrono.cpp" />
+    <ClCompile Include="D:\Project\FreeCAD-1.0.2-ori\FreeCAD\src\3rdParty\salomesmesh\src\SMDS\duplicate.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\FreeCAD-1.0.2-ori\Build\ZERO_CHECK.vcxproj">
+      <Project>{FC9EC38A-2C8D-31AA-8223-50EE9BFA1B59}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
